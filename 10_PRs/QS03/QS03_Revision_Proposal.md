@@ -3,7 +3,7 @@
 ## Summary
 
 Consolidated revision of QS03 based on the unified QS03 Review findings.
-Emphasizes the entry's three novel contributions (re-establishment failure,
+Emphasizes the entry's three candidate contributions (re-establishment failure,
 re-signing vs re-issuance, signature assurance lifetime) and addresses
 precision, scope, and reference landscape issues.
 
@@ -20,7 +20,7 @@ precision, scope, and reference landscape issues.
   PKI trust chains, long-lived artifacts, token/message signatures,
   hardware-anchored trust, verifier-side gaps, fallback, third-party)
 - **Prevention** — 8 lifecycle-based control families
-- **Attack Scenarios** — 7 scenarios (5 existing extended + 2 new + 2 ChatGPT additions)
+- **Attack Scenarios** — 7 scenarios (5 existing extended + 2 new + 2 supplementary additions)
 - **References** — FIPS 186-5, RFC 9881, 9882, 9909, 9964, TCG v185, PTP 1.07,
   UEFI Secure Boot, UEFI PQC work, CA/B SC-081, DORA Art. 30 added
 - **Standards & Regulatory Mapping** — taxonomy table adopted; TODO resolved

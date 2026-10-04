@@ -130,7 +130,7 @@ key generation/custody/rotation/revocation.
 ### After
 4 categories:
 - Government migration guidance (NCSC, CISA/NSA/NIST, EU Roadmap)
-- Standards and specifications (NIST IR 8547, CycloneDX CBOM 1.6+,
+- Standards and specifications (NIST IR 8547, CycloneDX CBOM v1.7,
   CycloneDX Registry, CycloneDX use cases, SPDX)
 - EU regulatory references (NIS2, DORA Art. 9, DORA RTS Art. 6/7,
   DORA Art. 30, CRA Annex I)

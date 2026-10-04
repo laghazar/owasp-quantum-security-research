@@ -4,8 +4,7 @@ Internal audit register. Not submitted to OWASP directly.
 27 granular observations consolidated into ~10 findings and 4 Issues + 1 PR.
 ---
 
-## Critical
-
+## First Review Pass - Foundational Findings
 ### QS01-OBS-003 — CRQC planning horizon vs PQC migration milestones
 
 **Section:** Description / Common Examples
@@ -28,8 +27,7 @@ will necessarily arrive in those years.
 
 ---
 
-## Very High
-
+## First Review Pass - Extended Findings
 ### QS01-OBS-002 — Confidentiality lifetime is undefined
 
 **Section:** Description
@@ -541,8 +539,7 @@ legal weight.
 
 ---
 
-## Medium
-
+## First Review Pass - Medium Priority Findings
 ### QS01-OBS-004 — Key-establishment terminology
 
 Terminology precision: key establishment, key agreement, key transport are

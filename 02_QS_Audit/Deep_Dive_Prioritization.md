@@ -244,7 +244,7 @@ LOW EFFORT ------------- HIGH EFFORT
 
 ## 7. Recommended Deep-Dive Sequence
 
-### Immediate next (after ChatGPT validation)
+### Immediate next (after independent validation)
 
 **QS09 deep dive — Integrity chain formalization**
 
@@ -271,7 +271,7 @@ Deliverables:
 
 **Landscape-wide regulatory framework**
 
-This is already planned in Option B. Execute the plan after ChatGPT
+This is already planned in Option B. Execute the plan after independent
 validation.
 
 ---
@@ -280,7 +280,7 @@ validation.
 
 ### Q1
 
-Should the QS09 deep dive proceed before or after ChatGPT validation of
+Should the QS09 deep dive proceed before or after independent validation of
 the prioritization?
 
 ### Q2
@@ -313,11 +313,11 @@ Priority sequencing:
    focus
 5. Defer operational verification, migration lifecycle, cMTTR
 
-Pending: ChatGPT review of this prioritization, then execution.
+Pending: independent review of this prioritization, then execution.
 
 ---
 
 **Reviewed:** 2026-10-04
 **Scope:** Deep-dive and cross-entry contribution prioritization
-**Status:** Draft — pending ChatGPT review
-**Next step:** Execute QS09 deep dive after ChatGPT validation
+**Status:** Draft — pending independent verification
+**Next step:** Execute QS09 deep dive after independent validation

@@ -483,7 +483,7 @@ contribution.
 
 The landscape-wide TODO resolution plan
 (`02_QS_Audit/Landscape_TODO_Resolution_Plan.md`) proposes Option 3
-(hybrid per-entry + landscape-wide). This is pending ChatGPT review.
+(hybrid per-entry + landscape-wide). This is pending independent verification.
 
 ### O3 — Cross-entry contribution candidates
 

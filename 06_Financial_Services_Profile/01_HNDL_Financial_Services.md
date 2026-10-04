@@ -21,6 +21,8 @@ This makes them one of the highest-priority HNDL exposure sectors.
 
 ## 2. Data classes
 
+> **Note:** Retention periods are illustrative only and are jurisdiction- and record-type-dependent. Actual retention requirements are defined by national law and sector-specific regulation.
+
 | Data class | Typical retention | Typical confidentiality lifetime | HNDL priority |
 |---|---|---|---|
 | KYC records | 5-10 years post relationship | High (long) | High |

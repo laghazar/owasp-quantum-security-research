@@ -3,7 +3,7 @@
 **Entry:** QS04 — Absent Cryptographic Inventory and CBOM
 **Review date:** 2026-10-04
 **OWASP project:** quantum-security-project/quantum-top-10
-**Status:** Complete — unified finding register finalized
+**Status:** Review Complete (evidence validation pending) — unified finding register finalized
 **Methodology:** Merged analysis from two independent review passes
 
 ---

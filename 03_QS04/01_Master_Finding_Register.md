@@ -5,8 +5,7 @@ Consolidated into 4 Issues + 1 PR.
 
 ---
 
-## ?? CRITICAL
-
+## First Review Pass - Foundational Findings
 ### QS04-OBS-001 — "Absent" is too binary
 
 **Type:** Structural
@@ -107,8 +106,7 @@ No survey evidence supports this ranking.
 
 ---
 
-## ?? VERY HIGH
-
+## First Review Pass - Extended Findings
 ### QS04-OBS-005 — Use current CycloneDX cryptographic model
 
 CycloneDX CBOM has explicit cryptographic-asset types: algorithm, protocol,
@@ -308,8 +306,7 @@ profile of the system.
 
 ---
 
-## ?? HIGH
-
+## First Review Pass - High Priority Findings
 ### QS04-OBS-026 — Inventory itself needs protection
 
 CBOM may contain key identifiers, certificate identities, trust anchors,
@@ -473,8 +470,7 @@ implementation mechanism for cryptographic risk management.
 
 ---
 
-## ?? MEDIUM
-
+## First Review Pass - Medium Priority Findings
 ### QS04-OBS-038 — Replacement lifecycle
 
 Application A retired, B replaces it — inventory must reflect both.

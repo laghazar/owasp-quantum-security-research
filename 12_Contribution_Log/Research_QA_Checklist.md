@@ -15,7 +15,7 @@ mandatory use is at the pre-submission boundary.
 - [ ] No unsupported absolute claims (e.g. "the single most common blocker")
 - [ ] No accidental OWASP attribution (no implication of endorsement)
 - [ ] Internal priority labels clearly marked as internal
-- [ ] No "novel contribution" claim without prior-art review
+- [ ] No "candidate contribution" claim without prior-art review
 - [ ] Qualitative models are not presented as validated quantitative formulas
 
 ## Evidence

@@ -5,7 +5,7 @@
 **Review date:** 2026-10-04
 **OWASP project:** quantum-security-project/quantum-top-10
 **Entry version reviewed:** draft v0.1 (bootstrap)
-**Status:** Complete — findings register finalized
+**Status:** Review Complete (evidence validation pending) — findings register finalized
 
 ---
 
@@ -75,7 +75,7 @@ This reframes QS01 away from "quantum computers will break encryption" toward
 a mature, risk-based framing consistent with NIST's current treatment of
 high-value, long-lived sensitive data under uncertain CRQC timing.
 
-### HNDL Exposure formula
+### Conceptual HNDL Risk Model
 
     HNDL Exposure =
         Data

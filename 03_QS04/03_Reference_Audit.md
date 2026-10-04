@@ -106,11 +106,11 @@ Current CycloneDX CBOM model explicitly includes:
 - secret
 - relationships
 
-**Version precision:** Specify CycloneDX 1.6 or later. CBOM support was
-formally added in CycloneDX 1.6 (2024).
+**Version precision:** Specify CycloneDX v1.7 or later. CBOM support was
+formally added in CycloneDX v1.7 (2024).
 
 **Proposed wording:**
-> "Adopt a standardized CBOM schema such as CycloneDX 1.6+ CBOM. Field-level
+> "Adopt a standardized CBOM schema such as CycloneDX v1.7 CBOM. Field-level
 > interoperability with other schemas (e.g., SPDX) is incomplete; standardize
 > on one schema and note the mapping when exchanging data with third parties."
 
@@ -185,7 +185,7 @@ wording.
 **OBS-005 — Use current CycloneDX model.** Specify CBOM asset types and
 relationships.
 
-**OBS-007 — Version precision.** Specify CycloneDX 1.6+.
+**OBS-007 — Version precision.** Specify CycloneDX v1.7.
 
 **OBS-009 — CISA/NSA/NIST fact sheet verification.** Verify title and date
 before submission.

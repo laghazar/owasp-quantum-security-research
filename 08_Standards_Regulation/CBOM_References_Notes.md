@@ -9,12 +9,12 @@ QS04, QS05, and other entries.
 
 - **Purpose:** Machine-readable representation of cryptographic assets and
   their relationships.
-- **CBOM support:** Added in CycloneDX 1.6 (2024).
+- **CBOM support:** Added in CycloneDX v1.7 (2024).
 - **Asset types:** cryptographic-asset with subtypes: algorithm, protocol,
   certificate, key, token, secret.
 - **Relationships:** Cryptographic assets can reference each other (e.g.,
   certificate securedBy key, key usedBy algorithm).
-- **Version precision:** Specify CycloneDX 1.6 or later when referencing.
+- **Version precision:** Specify CycloneDX v1.7 or later when referencing.
 
 ---
 

@@ -140,7 +140,7 @@ accurate quantum-risk assessment and controlled migration.
 Maintain a machine-readable, evidence-based inventory covering cryptographic
 assets, their use, ownership, lifecycle, and relationships to systems,
 services, data, hardware, and suppliers. Use an established CBOM
-representation such as CycloneDX 1.6+ where appropriate, or another clearly
+representation such as CycloneDX v1.7 where appropriate, or another clearly
 defined interoperable representation.
 
 **2. Define inventory scope explicitly.**

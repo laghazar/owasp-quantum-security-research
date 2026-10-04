@@ -268,7 +268,7 @@ Risk: artifact lifetime > current signature assurance lifetime.
 
 ---
 
-### QS03-OBS-014 — Signature Assurance Lifetime (KEY NEW CONCEPT)
+### QS03-OBS-014 — Signature Assurance Lifetime (Candidate concept)
 
 **Type:** New dimension
 **Disposition:** Issue + PR
@@ -291,7 +291,7 @@ Distinct from:
     Firmware artifact retained indefinitely
     Signature assurance required for operational lifetime
 
-**This is QS03's strongest novel contribution — parallel to QS01's
+**This is QS03's strongest candidate contribution — parallel to QS01's
 confidentiality lifetime.**
 
 ---

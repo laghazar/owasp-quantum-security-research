@@ -4,7 +4,7 @@
 
 - 2 existing OWASP scenarios (extended with dependency-graph realism)
 - 2 new scenarios (migration completeness, vendor-declared vs validated)
-- ChatGPT refinements + original-pass improvements merged, no reduction
+- Supplementary refinements + original-pass improvements merged, no reduction
 
 ---
 

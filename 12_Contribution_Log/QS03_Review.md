@@ -25,11 +25,11 @@ analysis + Regulatory mapping + Reference landscape modernization
 ## Positioning statement
 
 > I reviewed QS03 from a cryptographic-signature, migration, regulatory, and
-> financial-services perspective, emphasizing three novel contributions:
+> financial-services perspective, emphasizing three candidate contributions:
 > (1) re-establishment failure, (2) re-signing vs re-issuance, and
 > (3) signature assurance lifetime as a new risk dimension.
 
-## Three novel contributions highlighted
+## Three candidate contributions highlighted
 
 1. **Re-establishment failure** — migration is technically correct on every
    cryptographic measure, but the issuance flow accepted a compromised anchor.

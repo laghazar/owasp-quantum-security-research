@@ -4,7 +4,7 @@
 
 - 3 existing OWASP scenarios (extended)
 - 2 new scenarios (credential, re-establishment failure)
-- 5 ChatGPT-style scenarios (software update, CA compromise,
+- 5 supplementary scenarios (software update, CA compromise,
   long-lived artifact, PQC signer + classical verifier, hardware-root failure)
 - All content merged below, no reduction.
 
@@ -279,7 +279,7 @@ than simply a weak cryptographic algorithm.
 ### Scenario 5 — Re-establishment failure (NEW)
 | Element | Assessment |
 |---|---|
-| Core concept | Novel contribution |
+| Core concept | Candidate contribution |
 | Detection guidance | Required |
 | Sub-modes (A/B/C) | Explicit |
 | Overall | Add to entry |
