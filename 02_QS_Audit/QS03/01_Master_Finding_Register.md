@@ -5,8 +5,7 @@ OWASP directly. Consolidated into 4 Issues + 1 PR.
 
 ---
 
-## ?? CRITICAL
-
+## First Review Pass - Foundational Findings
 ### QS03-OBS-001 — "Signature broken" is not "all historical signatures instantly invalid"
 
 **Type:** Conceptual clarification
@@ -36,8 +35,7 @@ This is especially important for long-lived signed artifacts.
 
 ---
 
-## ?? VERY HIGH
-
+## First Review Pass - Extended Findings
 ### QS03-OBS-002 — Trust-chain migration, not leaf-key replacement
 
 **Type:** Structural
@@ -552,8 +550,7 @@ not:
 
 ---
 
-## HIGH (additional original-pass findings)
-
+## Second Review Pass - Additional Findings
 ### QS03-OBS-030 — Re-signing vs re-issuance operational table
 
 **Type:** Original contribution emphasis
@@ -740,12 +737,12 @@ Confidentiality exposure is prospective: data collected now, decrypted later.
 | OBS-016 | CMS/archive signatures | High | PR |
 | OBS-017 | JWT/SAML algorithm specificity | High | PR |
 | OBS-018 | Separate signing categories | High | PR |
-| OBS-019 | Blockchain scope | Medium-High | PR |
+| OBS-019 | Blockchain scope | High | PR |
 | OBS-020 | Lifecycle-based prevention | High | PR |
 | OBS-021 | Verifier migration | Very High | Issue + PR |
 | OBS-022 | Hybrid boundary QS06 | High | PR |
 | OBS-023 | Downgrade/fallback | High | PR / QS06 |
-| OBS-024 | PQ signature size/performance | Medium-High | Discussion + PR |
+| OBS-024 | PQ signature size/performance | High | Discussion + PR |
 | OBS-025 | Modern IETF references | High | PR |
 | OBS-026 | FIPS 204 errata status | Medium | PR |
 | OBS-027 | SP 800-208 final status | Medium | PR |
@@ -762,3 +759,39 @@ Confidentiality exposure is prospective: data collected now, decrypted later.
 | OBS-038 | DORA Art. 30 emphasis | High | PR |
 | OBS-039 | Mapping TODO resolution | Critical | Issue + PR |
 | OBS-040 | Retroactive vs prospective | High | PR + Issue |
+
+---
+
+## Finding Count Reconciliation
+
+**Status.** 2026-10-04
+
+The initial review summary referenced 1 Critical / 13 Very High / 17 High / 9 Medium observations. During reconciliation, the per-finding priority distribution was recalculated from the summary table:
+
+- Unique observation IDs: 40
+- Critical: 2 (OBS-001, OBS-039)
+- Very High: 11 (OBS-002, 003, 005, 006, 007, 008, 013, 014, 021, 030, 031)
+- High: 25 (OBS-004, 009, 010, 011, 012, 015, 016, 017, 018, 019, 020, 022, 023, 024, 025, 028, 029, 032, 033, 034, 035, 036, 037, 038, 040)
+- Medium: 2 (OBS-026, OBS-027)
+- Total: 40
+
+### Changes applied
+
+1. **Medium-High normalized to High.**
+   - OBS-019 (Blockchain scope): Medium-High -> High
+   - OBS-024 (PQ signature size/performance): Medium-High -> High
+   Rationale: the four-label taxonomy (Critical / Very High / High / Medium) does not include Medium-High. Both findings have substantive operational or scope-correctness impact.
+
+2. **Section headings decoupled from priority labels.**
+   Section headings renamed to reflect review-pass organization (First Review Pass, Second Review Pass).
+
+3. **Historical reference retained.**
+   Historical counts retained as provenance information.
+
+### Rules applied
+
+- No new observation created.
+- No observation renumbered.
+- No priority changed except Medium-High resolution.
+
+**Total.** 40 unique observations.

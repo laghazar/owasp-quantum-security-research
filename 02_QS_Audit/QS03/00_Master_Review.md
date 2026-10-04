@@ -1,9 +1,9 @@
-# QS03 — Master Review (Unified)
+# QS03 ï¿½ Master Review (Unified)
 
-**Entry:** QS03 — Vulnerable Signatures and Code-Signing
+**Entry:** QS03 ï¿½ Vulnerable Signatures and Code-Signing
 **Review date:** 2026-10-04
 **OWASP project:** quantum-security-project/quantum-top-10
-**Status:** Complete — unified finding register finalized
+**Status:** Complete ï¿½ unified finding register finalized
 **Methodology:** Merged analysis from two independent review passes
 
 ---
@@ -31,17 +31,17 @@ Review QS03 for:
 QS03 is technically stronger than the QS01 draft. It has THREE novel
 conceptual contributions that are already present or newly identified:
 
-1. **Re-establishment failure** — migration is technically correct on every
+1. **Re-establishment failure** ï¿½ migration is technically correct on every
    cryptographic measure, but the issuance flow accepted a compromised anchor.
    Should be split into three sub-modes: trust re-establishment failure,
    cryptographic migration failure, key lifecycle migration failure.
 
-2. **Re-signing vs re-issuance** — signed artefacts (fixed content) can be
+2. **Re-signing vs re-issuance** ï¿½ signed artefacts (fixed content) can be
    re-signed as remediation; credentials (key-control claims) require
    re-issuance resting on independent evidence; roots of trust require
    verifier update.
 
-3. **Signature assurance lifetime** — a new dimension. The period during
+3. **Signature assurance lifetime** ï¿½ a new dimension. The period during
    which a relying party needs to retain confidence that a signature provides
    reliable evidence of authenticity and integrity. Distinct from artifact
    retention, from confidentiality lifetime (QS01), and from operational
@@ -61,10 +61,10 @@ conceptual contributions that are already present or newly identified:
 
 ## 3. Priority Findings Summary
 
-- **Critical:** 1 (QS03-OBS-001)
-- **Very High:** 13
-- **High:** 17
-- **Medium:** 9
+- **Critical:** 2 (QS03-OBS-001, QS03-OBS-039)
+- **Very High:** 11
+- **High:** 25
+- **Medium:** 2
 - **Total granular observations:** 40
 
 See `01_Master_Finding_Register.md` for the complete unified register.
@@ -127,7 +127,7 @@ See `01_Master_Finding_Register.md` for the complete unified register.
 
 ## 5. The two signature trust pathways
 
-### Path A — Signed artefacts (re-signable)
+### Path A ï¿½ Signed artefacts (re-signable)
 
     TODAY
        |
@@ -153,7 +153,7 @@ See `01_Master_Finding_Register.md` for the complete unified register.
        v
     Claim re-attested
 
-### Path B — Credentials (require re-issuance)
+### Path B ï¿½ Credentials (require re-issuance)
 
     TODAY
        |
@@ -224,18 +224,18 @@ See `01_Master_Finding_Register.md` for the complete unified register.
 
 | Topic | QS01 | QS03 | QS04 | QS05 | QS06 | QS07 |
 |---|---|---|---|---|---|---|
-| Mosca's inequality | Confidentiality | Signature assurance | — | — | — | — |
+| Mosca's inequality | Confidentiality | Signature assurance | ï¿½ | ï¿½ | ï¿½ | ï¿½ |
 | Crypto discovery | Uses | Uses | Primary | Uses | Uses | Uses |
 | Algorithm selection | KEM (ML-KEM) | Signatures (ML-DSA / SLH-DSA / HBS) | Inventory | Agility | Deployment | Hardware |
-| Hybrid deployment | TLS hybrid | Signing hybrid | — | Migration | Primary | — |
-| Code-signing / firmware | — | Primary | Discovery | Agility | Migration | Hardware root |
+| Hybrid deployment | TLS hybrid | Signing hybrid | ï¿½ | Migration | Primary | ï¿½ |
+| Code-signing / firmware | ï¿½ | Primary | Discovery | Agility | Migration | Hardware root |
 | CA hierarchy | TLS certs | Primary | Inventory | Migration | Deployment | HSM |
-| Re-issuance / re-signing | — | Primary | — | — | — | — |
+| Re-issuance / re-signing | ï¿½ | Primary | ï¿½ | ï¿½ | ï¿½ | ï¿½ |
 | Verifier population | TLS clients | Signature verifiers | Inventory | Migration | Deployment | Hardware |
 | HSM / KMS | Key storage | Signing key storage | Inventory | Agility | Deployment | Primary |
-| Stateful HBS | — | Primary | — | — | — | HSM state |
-| Signature assurance lifetime | — | Primary | — | — | — | — |
-| Long-lived signed artifacts | — | Primary | Discovery | Agility | Preservation | Hardware |
+| Stateful HBS | ï¿½ | Primary | ï¿½ | ï¿½ | ï¿½ | HSM state |
+| Signature assurance lifetime | ï¿½ | Primary | ï¿½ | ï¿½ | ï¿½ | ï¿½ |
+| Long-lived signed artifacts | ï¿½ | Primary | Discovery | Agility | Preservation | Hardware |
 
 ### Dependency flow
 
