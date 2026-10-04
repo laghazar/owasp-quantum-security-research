@@ -1,0 +1,14 @@
+# Default: normalize to LF in repository
+* text=auto eol=lf
+
+# Markdown explicit
+*.md text eol=lf
+
+# PowerShell scripts (keep CRLF for Windows)
+*.ps1 text eol=crlf
+
+# Excel binary
+*.xlsx binary
+
+# Git internals
+.gitattributes text eol=lf

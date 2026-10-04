@@ -70,7 +70,7 @@ For each candidate marked Not yet or Partial:
 | Blocker | Affects | Action |
 |---|---|---|
 | Current OWASP Main gap analysis not performed | All candidates | Fetch current main and perform line-by-line comparison |
-| ChatGPT review not yet received | QS09 priority confirmation | Awaiting ChatGPT limit reset |
+| Independent verification not yet received | QS09 priority confirmation | Awaiting internal review |
 | Line-ending normalization in working tree | QS09 PR preparation | Normalize before final PR diff |
 
 ## Status

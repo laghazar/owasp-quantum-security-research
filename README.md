@@ -4,14 +4,18 @@ Research and analysis workspace focused on contributing to the OWASP Quantum
 Security Project through structured security research, evidence-based
 analysis, and practical risk-management perspectives.
 
-## Submission Status
+## Current Contribution Focus
 
-As of this repository revision, all Issues and Pull Requests in this
-repository are internal research drafts. No contribution has been submitted
-to the OWASP Quantum Security Project.
+**Focus:** comparing independent findings against the current OWASP
+Quantum Security Project `main` branch and preparing a small number of
+evidence-backed, non-duplicative contribution candidates.
 
-Research outputs intended for potential submission remain subject to source
-validation, cross-entry boundary review, and final evidence review.
+**Priority:** QS09 platform-surface integrity and execution-evidence
+assurance.
+
+**Approach:** contributions are prepared as GitHub Issues and focused
+Pull Requests following the project's published contribution process.
+Submission readiness is gated by the internal Research QA Checklist.
 
 ## Purpose
 
