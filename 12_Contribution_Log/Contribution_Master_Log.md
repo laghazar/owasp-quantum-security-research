@@ -99,6 +99,35 @@ Notes:
 
 See `02_QS_Audit/QS08_Rapid_Audit.md` for the full rapid audit.
 
+---
+
+## QS09 - Toolchain and Compiler Compromise
+
+Rapid audit. Findings: 7. Status: Complete (rapid). Platform surface.
+
+| ID | Date | QS | Observation | Evidence | Contribution | Disposition | Status |
+|---|---|---|---|---|---|---|---|
+| QS09-OBS-001 | 2026-10-04 | QS09 | Entry quality and technical density (positive) | Verified | Note only | Note | Drafted |
+| QS09-OBS-002 | 2026-10-04 | QS09 | Submitted-to-dispatch-to-result integrity chain | Verified | Contribution candidate | Needs research | Drafted |
+| QS09-OBS-003 | 2026-10-04 | QS09 | Provider assertion vs independent proof | Verified | Contribution candidate | Needs research | Drafted |
+| QS09-OBS-004 | 2026-10-04 | QS09 | Three attack classes tabulation suggestion | Provisional | Editorial | Note | Drafted |
+| QS09-OBS-005 | 2026-10-04 | QS09 | SLSA and RFC 9334 not operationalized | Verified | Extension | Needs research | Drafted |
+| QS09-OBS-006 | 2026-10-04 | QS09 | DORA Articles 28-44 - Article 30 emphasis | Verified | Scope refinement | Needs research | Drafted |
+| QS09-OBS-007 | 2026-10-04 | QS09 | Standards and Regulatory Mapping TODO | Verified | Cross-entry pattern | Needs research | Drafted |
+
+Notes:
+
+- Rapid audit, not full deep-dive.
+- Second platform-surface entry.
+- Strongest single contribution candidate of the landscape:
+  submitted-to-dispatch-to-result integrity chain.
+- Deep-dive RECOMMENDED for integrity chain model.
+- Platform surface may be a three-layer stack (toolchain / execution /
+  infrastructure) - suggested for REVIEW_METHODOLOGY.md update.
+- QS04 cross-reference possibility noted.
+
+See `02_QS_Audit/QS09_Rapid_Audit.md` for the full rapid audit.
+
 | QS | Findings | Issues drafted | PRs drafted | Status |
 |---|---|---|---|---|
 | QS01 | 29 | 4 | 1 | Draft - awaiting QS05-QS10 validation |
@@ -108,4 +137,5 @@ See `02_QS_Audit/QS08_Rapid_Audit.md` for the full rapid audit.
 | QS06 | 6 | 0 | 0 | Rapid audit complete |
 | QS07 | 7 | 0 | 0 | Rapid audit complete |
 | QS08 | 7 | 0 | 0 | Rapid audit complete |
-| **Total** | **146** | **12** | **3** | - |
+| QS09 | 7 | 0 | 0 | Rapid audit complete |
+| **Total** | **153** | **12** | **3** | - |
