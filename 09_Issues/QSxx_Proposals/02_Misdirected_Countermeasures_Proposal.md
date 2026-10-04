@@ -27,7 +27,7 @@ Four substitutions account for most of this:
 
 ## 3. Rationale
 
-Novel conceptual position. The candidate is the only entry describing
+Proposed distinct conceptual position. The candidate is the only entry describing
 an organisation that believes it has migrated. This is a distinct
 failure mode that no active entry covers:
 
@@ -163,7 +163,7 @@ governance entry?
 
 Rationale:
 
-- Novel conceptual position (only entry describing an organisation
+- Proposed distinct conceptual position (only entry describing an organisation
   that believes it has migrated)
 - Strong primary-source anchors (NCSC, NSA positions are explicit)
 - Topical QKD substitution problem

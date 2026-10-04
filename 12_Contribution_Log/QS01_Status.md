@@ -19,10 +19,10 @@
 
 ## Next actions
 
-1. Push all files to GitHub repo
+1. Complete final evidence validation
 2. Submit Issue #1
-3. Submit Issues #2-#4
-4. Submit consolidated PR
+3. Verify proposed changes against current OWASP main
+4. Submit one focused PR
 5. Track feedback and revision
 
 ## Acceptance tracking

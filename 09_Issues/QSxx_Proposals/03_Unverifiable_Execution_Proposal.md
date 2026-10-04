@@ -24,7 +24,7 @@ finance.
 
 ## 3. Rationale
 
-Novel problem. No active entry covers execution assurance or result
+Proposed distinct problem. No active entry covers execution assurance or result
 appraisal. The candidate explicitly delineates its scope from QS08,
 QS09, and QS10:
 
@@ -177,7 +177,7 @@ How should the boundary with QS09's RFC 9334 usage be expressed?
 
 Rationale:
 
-- Novel problem (execution assurance and result appraisal)
+- Proposed distinct problem (execution assurance and result appraisal)
 - Strong primary anchor (Upadhyay and Ghosh 2024, experimental)
 - Explicit scope delineation from QS08, QS09, QS10
 - Financial-services relevance (regulated entities require post-hoc

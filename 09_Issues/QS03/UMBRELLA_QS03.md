@@ -23,7 +23,7 @@ proposal.
    as a trust-chain migration, not a leaf-key replacement.
 3. **Re-establishment failure.** Migration can complete correctly on
    every cryptographic measure while the issuance flow accepted a
-   compromised anchor. This is a novel failure mode.
+   compromised anchor. This is a proposed distinct failure mode.
 4. **Reference modernization.** QS03 should reflect current IETF RFCs
    (9881, 9882, 9909, 9964), TCG TPM 2.0 v185, UEFI PQC work, and
    CA/B Forum Ballot SC-081.
