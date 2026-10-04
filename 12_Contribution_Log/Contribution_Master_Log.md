@@ -45,7 +45,32 @@ Notes:
 
 See `02_QS_Audit/QS06_Rapid_Audit.md` for the full rapid audit.
 
+---
 
+## QS07 - Hardware Roots of Trust
+
+Rapid audit. Findings: 7. Status: Complete (rapid).
+
+| ID | Date | QS | Observation | Evidence | Contribution | Disposition | Status |
+|---|---|---|---|---|---|---|---|
+| QS07-OBS-001 | 2026-10-04 | QS07 | Entry quality assessment (context) | Verified | Note only | Note | Drafted |
+| QS07-OBS-002 | 2026-10-04 | QS07 | TCG TPM 2.0 v185 PQC support under-cited | Verified | Correction | Needs research | Drafted |
+| QS07-OBS-003 | 2026-10-04 | QS07 | UEFI Secure Boot PQC direction under-cited | Provisional | Correction | Needs research | Drafted |
+| QS07-OBS-004 | 2026-10-04 | QS07 | HSM / smart card capacity analysis incomplete | Provisional | Extension | Needs research | Drafted |
+| QS07-OBS-005 | 2026-10-04 | QS07 | Hardware re-anchoring methodology absent | Verified | Contribution candidate | Needs research | Drafted |
+| QS07-OBS-006 | 2026-10-04 | QS07 | Compensating controls not framed | Provisional | Extension | Needs research | Drafted |
+| QS07-OBS-007 | 2026-10-04 | QS07 | Standards and Regulatory Mapping TODO | Verified | Cross-entry pattern | Needs research | Drafted |
+
+Notes:
+
+- Rapid audit, not full deep-dive.
+- QS06-OBS-003 and QS06-OBS-005 partially resolved via QS07 boundary.
+- Deep-dive OPTIONAL, focused on hardware re-anchoring methodology +
+  HSM capacity + compensating controls framework.
+- Cross-entry candidates: QS03 (TPM/UEFI), QS04 (hardware inventory),
+  QS07 (migration constraints).
+
+See `02_QS_Audit/QS07_Rapid_Audit.md` for the full rapid audit.
 
 | QS | Findings | Issues drafted | PRs drafted | Status |
 |---|---|---|---|---|
@@ -54,4 +79,5 @@ See `02_QS_Audit/QS06_Rapid_Audit.md` for the full rapid audit.
 | QS04 | 52 | 4 | 1 | Draft - awaiting QS05-QS10 validation |
 | QS05 | 5 | 0 | 0 | Rapid audit complete |
 | QS06 | 6 | 0 | 0 | Rapid audit complete |
-| **Total** | **132** | **12** | **3** | - |
+| QS07 | 7 | 0 | 0 | Rapid audit complete |
+| **Total** | **139** | **12** | **3** | - |
