@@ -175,14 +175,14 @@ See `02_QS_Audit/QSxx_Candidates/` for the full candidate reviews.
 
 | QS | Findings | Issues drafted | PRs drafted | Status |
 |---|---|---|---|---|
-| QS01 | 29 | 4 | 1 | Draft - awaiting QS05-QS10 validation |
-| QS03 | 40 | 4 | 1 | Draft - awaiting QS05-QS10 validation |
-| QS04 | 52 | 4 | 1 | Draft - awaiting QS05-QS10 validation |
-| QS05 | 5 | 0 | 0 | Rapid audit complete |
-| QS06 | 6 | 0 | 0 | Rapid audit complete |
-| QS07 | 7 | 0 | 0 | Rapid audit complete |
-| QS08 | 7 | 0 | 0 | Rapid audit complete |
-| QS09 | 7 | 0 | 0 | Rapid audit complete |
-| QS10 | 6 | 0 | 0 | Rapid audit complete |
-| QSxx Candidates | 4 reviewed | 0 | 0 | Candidate audit complete |
-| **Total** | **159** | **12** | **3** | All active entries + candidates reviewed |
+| QS01 | 27 | 4 | 1 | Review Complete |
+| QS03 | 40 | 4 | 1 | Review Complete |
+| QS04 | 52 | 4 | 1 | Review Complete |
+| QS05 | 5 | 0 | 0 | Review Complete |
+| QS06 | 6 | 0 | 0 | Review Complete |
+| QS07 | 7 | 0 | 0 | Review Complete |
+| QS08 | 7 | 0 | 0 | Review Complete |
+| QS09 | 7 | 0 | 0 | Review Complete |
+| QS10 | 6 | 0 | 0 | Review Complete |
+| QSxx Candidates | 4 reviewed | 0 | 0 | Candidate review complete |
+| **Total** | **157** | **12** | **3** | All active entries + candidates reviewed |

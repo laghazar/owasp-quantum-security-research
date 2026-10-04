@@ -125,26 +125,58 @@ See "Candidate Entry Handling" below.
 
 ## Status Model
 
-Analysis status is distinct from submission status.
+Two orthogonal status dimensions apply across the repository:
 
-### Analysis status
+1. **Analysis status** — what state the research artifact is in
+2. **Submission status** — whether it has been submitted to OWASP
 
-- Draft
-- Reviewed
-- Cross-entry verified
-- Source verified
-- Submission-ready
+Completed analysis work is not equivalent to a submission-ready
+artifact. Both dimensions are tracked separately.
+
+### Analysis status (6 levels)
+
+| Status | Meaning |
+|---|---|
+| Review Complete | Review pass completed; findings register finalized |
+| Evidence Validated | Source-level validation completed; citations verified |
+| Contribution Candidate | Identified as potential OWASP contribution with coherent thesis |
+| Submission Ready | All QA Checklist gates passed; ready for OWASP review |
+| Submitted | Submitted to OWASP as Issue or PR |
+| Revalidated | Re-checked against full landscape or after external feedback |
 
 ### Submission status
 
-- Not submitted
-- Submitted
-- In review
-- Merged
-- Closed
+| Status | Meaning |
+|---|---|
+| Not submitted | Internal research only |
+| Submitted | Formally submitted to OWASP |
+| In review | Under OWASP review |
+| Merged | Accepted and merged |
+| Closed | Closed without merge |
 
-Completed research work is not the same as a contribution approved for
-submission.
+### Application
+
+The status for each artifact is recorded at the top of the
+corresponding file (Master Review, Contribution Log entry, or similar).
+Current landscape status:
+
+| Entry | Analysis Status | Submission Status |
+|---|---|---|
+| QS01 | Review Complete (Evidence validation pending) | Not submitted |
+| QS03 | Review Complete (Evidence validation pending) | Not submitted |
+| QS04 | Review Complete (Evidence validation pending) | Not submitted |
+| QS05 | Review Complete (Evidence validation pending) | Not submitted |
+| QS06 | Review Complete (Evidence validation pending) | Not submitted |
+| QS07 | Review Complete (Evidence validation pending) | Not submitted |
+| QS08 | Review Complete (Evidence validation pending) | Not submitted |
+| QS09 | Review Complete (Evidence validation pending) | Not submitted |
+| QS10 | Review Complete (Evidence validation pending) | Not submitted |
+| QSxx Candidates | Candidate review complete | Not applicable |
+| FSP unified profile | Outline complete | Not submitted |
+
+**Rule.** Do not mark an entry "Complete" without specifying which
+dimension (Review, Evidence, Contribution, Submission). The plain
+"Complete" label is ambiguous and is deprecated.
 
 
 ## Candidate Entry Handling
