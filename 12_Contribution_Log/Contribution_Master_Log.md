@@ -72,6 +72,33 @@ Notes:
 
 See `02_QS_Audit/QS07_Rapid_Audit.md` for the full rapid audit.
 
+---
+
+## QS08 - QPU Tenant Isolation Failures
+
+Rapid audit. Findings: 7. Status: Complete (rapid). Platform surface.
+
+| ID | Date | QS | Observation | Evidence | Contribution | Disposition | Status |
+|---|---|---|---|---|---|---|---|
+| QS08-OBS-001 | 2026-10-04 | QS08 | Entry quality and character (positive) | Verified | Note only | Note | Drafted |
+| QS08-OBS-002 | 2026-10-04 | QS08 | Platform surface vs migration surface boundary | Provisional | Boundary definition | Needs research | Drafted |
+| QS08-OBS-003 | 2026-10-04 | QS08 | Isolation evidence framework missing | Provisional | Contribution candidate | Needs research | Drafted |
+| QS08-OBS-004 | 2026-10-04 | QS08 | DORA Article 28 scope precision | Verified | Scope qualification | Needs research | Drafted |
+| QS08-OBS-005 | 2026-10-04 | QS08 | Shared-QPU output observability decision model | Provisional | Extension | Needs research | Drafted |
+| QS08-OBS-006 | 2026-10-04 | QS08 | Standards-track progress not tracked | Provisional | Extension | Needs research | Drafted |
+| QS08-OBS-007 | 2026-10-04 | QS08 | Standards and Regulatory Mapping TODO | Verified | Cross-entry pattern | Needs research | Drafted |
+
+Notes:
+
+- Rapid audit, not full deep-dive.
+- First platform-surface entry reviewed.
+- No migration-surface carry-forward applies.
+- Deep-dive OPTIONAL, focused on isolation evidence framework.
+- Financial-services relevance: proprietary optimisation on quantum
+  cloud + DORA Article 28 alignment.
+
+See `02_QS_Audit/QS08_Rapid_Audit.md` for the full rapid audit.
+
 | QS | Findings | Issues drafted | PRs drafted | Status |
 |---|---|---|---|---|
 | QS01 | 29 | 4 | 1 | Draft - awaiting QS05-QS10 validation |
@@ -80,4 +107,5 @@ See `02_QS_Audit/QS07_Rapid_Audit.md` for the full rapid audit.
 | QS05 | 5 | 0 | 0 | Rapid audit complete |
 | QS06 | 6 | 0 | 0 | Rapid audit complete |
 | QS07 | 7 | 0 | 0 | Rapid audit complete |
-| **Total** | **139** | **12** | **3** | - |
+| QS08 | 7 | 0 | 0 | Rapid audit complete |
+| **Total** | **146** | **12** | **3** | - |
