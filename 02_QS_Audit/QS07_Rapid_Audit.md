@@ -554,4 +554,4 @@ surfaces.
 **Deep-dive decision:** DEEP DIVE OPTIONAL (financial-services focused)
 **Carry-forward:** QS06-OBS-003 and QS06-OBS-005 partially resolved;
 hardware re-anchoring methodology is a candidate cross-entry
-contribution
+contributionս

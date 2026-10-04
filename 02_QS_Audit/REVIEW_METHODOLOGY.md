@@ -212,3 +212,134 @@ Observation
 
 The repository's internal review labels and conclusions are independent
 research artifacts and do not represent official OWASP decisions.
+
+---
+
+## Platform Surface Model
+
+The platform surface is represented as a three-layer stack based on
+the QS08, QS09, and QS10 reviews.
+
+    Quantum application layer
+       |
+       v
+    QS09 - Toolchain layer
+       (compiler, transpiler, scheduler, dispatch, result record)
+       |
+       v
+    QS08 - Execution layer
+       (QPU multi-tenancy, tenant isolation, qubit reset)
+       |
+       v
+    QS10 - Infrastructure layer
+       (controller electronics, physical access, telemetry)
+
+Each layer addresses a distinct threat property:
+
+| Layer | Entry | Threat property |
+|---|---|---|
+| Toolchain | QS09 | Integrity of transformation and result record |
+| Execution | QS08 | Confidentiality across tenant boundaries |
+| Infrastructure | QS10 | Confidentiality against physical side channels |
+
+Cross-layer observations:
+
+- The submitted-to-dispatch-to-result integrity chain (QS09) spans
+  the toolchain layer and records its outputs for the result record
+- QS08 and QS10 both concern information leakage but from different
+  layers (logical execution vs physical infrastructure)
+- A unified platform-surface provider evidence model is a cross-entry
+  contribution candidate (QS08 + QS09 + QS10)
+
+---
+
+## Deep-Dive Status
+
+The following table records the deep-dive decision for each reviewed
+entry.
+
+| Entry | Audit type | Findings | Deep-dive decision | Rationale |
+|---|---|---|---|---|
+| QS01 | Deep | 27 | Deep dive committed | Foundational entry |
+| QS03 | Deep | 40 | Deep dive committed | Signature trust chain |
+| QS04 | Deep | 52 | Deep dive committed | Inventory foundation |
+| QS05 | Rapid | 5 | OPTIONAL (deferred) | Strong entry; cMTTR questioned |
+| QS06 | Rapid | 6 | NO DEEP DIVE | Well-constructed three-layer model |
+| QS07 | Rapid | 7 | OPTIONAL (financial-services) | Hardware re-anchoring methodology |
+| QS08 | Rapid | 7 | OPTIONAL (isolation evidence) | Isolation evidence framework |
+| QS09 | Rapid | 7 | **RECOMMENDED** | Submitted-to-dispatch-to-result integrity chain |
+| QS10 | Rapid | 6 | NO deep dive | Cross-entry platform model preferred |
+| QS02 | Note | — | Not applicable | Restructuring history |
+
+Total findings: 157 (active entries) + 4 candidate reviews.
+
+Cross-entry contribution candidates (spanning multiple entries):
+
+1. QS09 integrity chain (submitted-to-dispatch-to-result)
+2. Platform-surface provider evidence model (QS08 + QS09 + QS10)
+3. Operational verification methodology (QS04 + QS05 + QS06)
+4. Hardware re-anchoring methodology (QS03 + QS04 + QS07)
+5. Migration lifecycle model (QS04 + QS05 + QS06 + QS07)
+6. cMTTR operationalization (QS05 + NIST CSWP 39upd1 alignment)
+7. Landscape-wide regulatory framework standardization
+
+---
+
+## Candidate Recommendations
+
+The following candidates were reviewed against the active landscape.
+
+| Candidate | Recommendation | Rationale |
+|---|---|---|
+| Compliance Obligations | DO NOT ADOPT (standalone) | Framing not quantum-specific; overlaps every entry's Standards and Regulatory Mapping; consider merge into landscape-wide regulatory framework |
+| Insecure Quantum Software Supply Chain | STRONG ADOPT | Self-delineated from QS09; strong research anchors; complements QS09 |
+| Misdirected Quantum Countermeasures | STRONG ADOPT | Novel conceptual position (believes it has migrated); strong NCSC/NSA anchors |
+| Unverifiable Quantum Execution and Result Assurance | STRONG ADOPT | Novel problem; strong peer-reviewed anchor; explicit scope delineation from QS08/QS09/QS10 |
+
+Candidate reviews are documented in:
+
+    02_QS_Audit/QSxx_Candidates/
+
+Candidate review status does not imply OWASP adoption.
+
+---
+
+## Data Flow Across the Landscape
+
+    Classical data at rest
+       |
+       v
+    QS01 - HNDL confidentiality exposure
+       |
+       v
+    QS03 - Signature / trust exposure
+       |
+       v
+    QS04 - Cryptographic discovery and inventory
+       |
+       v
+    QS05 - Crypto-agility
+       |
+       v
+    QS06 - Secure migration / hybrid deployment
+       |
+       v
+    QS07 - Hardware-root constraints
+       |
+       v
+    QS08 - QPU tenant isolation (platform)
+       |
+       v
+    QS09 - Toolchain integrity (platform)
+       |
+       v
+    QS10 - Control-plane side channels (platform)
+
+Cross-cutting considerations:
+
+- QS04 inventory is the input for QS05, QS06, and QS07 planning
+- QS01 and QS03 use QS04 output as their data foundation
+- QS08, QS09, QS10 form the platform surface, distinct from the
+  migration surface but share a provider-evidence requirement pattern
+- Standards and Regulatory Mapping exists in every active entry and
+  is flagged for landscape-wide TODO resolution (8 instances)
