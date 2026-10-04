@@ -93,6 +93,24 @@ See `02_QS_Audit/QS01/00_Master_Review.md` section 8.
 - QS01 <-> QS06: fallback exposure (Established)
 - QS01 <-> QS07: hardware constraints (Established)
 
+
+## Regulatory Context Reference
+
+Standards and Regulatory Mapping sources for this entry are classified
+per the landscape-wide taxonomy in:
+
+    08_Standards_Regulation/Landscape_Regulatory_Context.md
+
+Per-entry regulatory mapping table:
+
+    08_Standards_Regulation/QS01_Regulatory_Mapping_Table.md
+
+The taxonomy distinguishes source types (Standard, Draft, Guidance,
+Policy, Roadmap, Directive, Regulation, RTS, Industry specification,
+Research). The non-mandate rule applies: no cited source mandates a
+specific algorithm unless its implementing requirement establishes
+that obligation.
+
 ## Disposition
 
 Proposed as a single focused PR with the 4 supporting findings as
