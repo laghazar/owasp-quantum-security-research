@@ -1,4 +1,4 @@
-# QS04 — Proposed Revised Text (OWASP PR candidate — FULL)
+# QS04 â€” Proposed Revised Text (OWASP PR candidate â€” FULL)
 
 This is the complete proposed revised QS04 text. Every section is written out
 verbatim. When submitting the PR, use this file directly as the source.
@@ -7,9 +7,9 @@ verbatim. When submitting the PR, use this file directly as the source.
 
 ## Title (proposed)
 
-QS04:2026 — Cryptographic Discovery and Inventory Gaps
+QS04:2026 â€” Cryptographic Discovery and Inventory Gaps
 
-*(Alternative: "Cryptographic Inventory and CBOM Gaps" — if the working group
+*(Alternative: "Cryptographic Inventory and CBOM Gaps" â€” if the working group
 prefers to retain "CBOM" in the title, but the current "Absent" framing
 should change.)*
 
@@ -218,7 +218,7 @@ machine-readable representation.
 
 ## Example Attack Scenarios
 
-### Scenario #1 — Forgotten cryptographic trust dependency
+### Scenario #1 â€” Forgotten cryptographic trust dependency
 
 An organisation begins a PQC migration programme using an incomplete
 cryptographic inventory. A private intermediate CA and several
@@ -242,7 +242,7 @@ The primary failure is not merely the existence of a classical algorithm. It
 is the lack of sufficient cryptographic discovery and dependency mapping to
 identify and migrate a trusted cryptographic dependency.
 
-### Scenario #2 — Unmanaged SaaS cryptographic dependency
+### Scenario #2 â€” Unmanaged SaaS cryptographic dependency
 
 An organisation inventories owned and operated infrastructure but does not
 inventory cryptographic functions performed by a critical SaaS provider. The
@@ -258,7 +258,7 @@ The resulting risk may include residual quantum-vulnerable communications,
 certificate dependencies, or HNDL exposure that were never identified or
 prioritised.
 
-### Scenario #3 — False migration completion caused by incomplete coverage
+### Scenario #3 â€” False migration completion caused by incomplete coverage
 
 An organisation builds a CBOM from source-code and dependency scanning and
 reports that 95% of its estate has been assessed. However, hardware-backed
@@ -272,7 +272,7 @@ dependency are discovered to remain on classical cryptography.
 The failure results from treating a partial CBOM as evidence of complete
 cryptographic visibility.
 
-### Scenario #4 — Vendor-declared PQC readiness is not validated
+### Scenario #4 â€” Vendor-declared PQC readiness is not validated
 
 A critical supplier reports that its platform is "quantum-safe". The
 organisation records the declaration in its supplier register but does not
@@ -291,11 +291,11 @@ independently observed or validated cryptographic state.
 
 ### Government migration guidance
 
-- **UK NCSC — Timelines for migration to post-quantum cryptography.** 2028
+- **UK NCSC â€” Timelines for migration to post-quantum cryptography.** 2028
   discovery and assessment milestone; 2031 highest-priority migration; 2035
   full migration target. Guidance for UK organisations and broader
   international reference.
-- **CISA / NSA / NIST — Quantum-Readiness: Migration to Post-Quantum
+- **CISA / NSA / NIST â€” Quantum-Readiness: Migration to Post-Quantum
   Cryptography fact sheet.** Cryptographic inventory recommendation.
 - **EU Coordinated Implementation Roadmap for the Transition to PQC.**
   Member State coordination framework with start-transition and high-risk
@@ -303,7 +303,7 @@ independently observed or validated cryptographic state.
 
 ### Standards and specifications
 
-- **NIST IR 8547 (Initial Public Draft) — Transition to Post-Quantum
+- **NIST IR 8547 (Initial Public Draft) â€” Transition to Post-Quantum
   Cryptography Standards.** Transition planning guidance.
 - **CycloneDX CBOM specification (1.6+).** Cryptography Bill of Materials
   schema for cryptographic assets and relationships.
@@ -316,13 +316,13 @@ independently observed or validated cryptographic state.
 
 ### EU regulatory references
 
-- **NIS2 Article 21(2)(h)** — policies and procedures regarding cryptography
+- **NIS2 Article 21(2)(h)** â€” policies and procedures regarding cryptography
   and, where appropriate, encryption.
-- **DORA Article 9** — ICT risk management.
-- **DORA RTS Article 6** — encryption and cryptographic controls policy.
-- **DORA RTS Article 7** — cryptographic key lifecycle.
-- **DORA Articles 28-44 (esp. Article 30)** — ICT third-party risk management.
-- **CRA Annex I** — products with digital elements security requirements.
+- **DORA Article 9** â€” ICT risk management.
+- **DORA RTS Article 6** â€” encryption and cryptographic controls policy.
+- **DORA RTS Article 7** â€” cryptographic key lifecycle.
+- **DORA Articles 28-44 (esp. Article 30)** â€” ICT third-party risk management.
+- **CRA Annex I** â€” products with digital elements security requirements.
 
 ---
 

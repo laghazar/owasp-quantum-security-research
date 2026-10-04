@@ -1,4 +1,4 @@
-# QS04 — Regulatory Mapping Table
+# QS04 â€” Regulatory Mapping Table
 
 Reusable across QS entries.
 

@@ -1,4 +1,4 @@
-# QS03 — Reference Links Audit (FULL, unified)
+# QS03 â€” Reference Links Audit (FULL, unified)
 
 Audit chain: Claim -> Reference -> Evidence -> Supports claim? -> Scope -> Status -> Keep/Replace/Add
 
@@ -28,11 +28,11 @@ Audit chain: Claim -> Reference -> Evidence -> Supports claim? -> Scope -> Statu
 
 ---
 
-## 1. NIST FIPS 204 — ML-DSA
+## 1. NIST FIPS 204 â€” ML-DSA
 
 **Claim in QS03:** "ML-DSA (FIPS 204) for general digital signatures."
 
-**Assessment:** KEEP — Very strong
+**Assessment:** KEEP â€” Very strong
 
 Final standard, 13 August 2024. Module-lattice digital signature standard.
 CNSA 2.0-approved for NSS firmware/software signing.
@@ -43,11 +43,11 @@ errata/planning note."
 
 ---
 
-## 2. NIST FIPS 205 — SLH-DSA
+## 2. NIST FIPS 205 â€” SLH-DSA
 
 **Claim in QS03:** "SLH-DSA (FIPS 205) for very long-lived, high-assurance signatures."
 
-**Assessment:** KEEP — Very strong
+**Assessment:** KEEP â€” Very strong
 
 Final standard, 13 August 2024. Stateless hash-based signature standard.
 NOT approved for NSS use under CNSA 2.0.
@@ -89,7 +89,7 @@ Active standards development. Several RFCs now published (see below).
 
 ---
 
-## 5. EU Cyber Resilience Act — Annex I
+## 5. EU Cyber Resilience Act â€” Annex I
 
 **Claim in QS03:** "State-of-the-art integrity and authenticity requirements."
 
@@ -110,7 +110,7 @@ Not explicit PQC mandate.
 
 **Claim in QS03:** "Recommendation for Stateful Hash-Based Signature Schemes (LMS, XMSS)."
 
-**Assessment:** KEEP — Final, October 29, 2020.
+**Assessment:** KEEP â€” Final, October 29, 2020.
 
 Primary anchor for LMS and XMSS. Emphasize:
 - state management is critical
@@ -141,7 +141,7 @@ Initial Public Draft, 12 November 2024. Label as "Initial Public Draft".
 
 ---
 
-## 9. NIST FIPS 186-5 — ADD
+## 9. NIST FIPS 186-5 â€” ADD
 
 Digital Signature Standard. RSA, ECDSA, EdDSA for generation/verification.
 DSA retained only for verification of existing signatures.
@@ -150,9 +150,9 @@ Context for what is being replaced.
 
 ---
 
-## 10. RFC 9881 — ADD
+## 10. RFC 9881 â€” ADD
 
-**Internet X.509 PKI — Algorithm Identifiers for ML-DSA.**
+**Internet X.509 PKI â€” Algorithm Identifiers for ML-DSA.**
 
 Published October 2025. Standards Track.
 
@@ -160,7 +160,7 @@ Concrete anchor for certificate migration (OBS-015).
 
 ---
 
-## 11. RFC 9882 — ADD
+## 11. RFC 9882 â€” ADD
 
 **Use of the ML-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS).**
 
@@ -170,7 +170,7 @@ Concrete anchor for CMS / archival signed objects (OBS-016).
 
 ---
 
-## 12. RFC 9909 — ADD
+## 12. RFC 9909 â€” ADD
 
 **Algorithm Identifiers for SLH-DSA in X.509.**
 
@@ -180,7 +180,7 @@ Extends certificate migration anchor to SLH-DSA.
 
 ---
 
-## 13. RFC 9964 — ADD
+## 13. RFC 9964 â€” ADD
 
 **ML-DSA for JSON Object Signing and Encryption (JOSE) and CBOR Object Signing and Encryption (COSE).**
 
@@ -190,7 +190,7 @@ Concrete anchor for JWT/JOSE/COSE migration (OBS-017).
 
 ---
 
-## 14. TCG TPM 2.0 v185 — ADD
+## 14. TCG TPM 2.0 v185 â€” ADD
 
 **PQC support for ML-KEM / ML-DSA**, including Attestation Keys.
 
@@ -198,14 +198,14 @@ Changes old hardware assumption (OBS-028).
 
 ---
 
-## 15. TCG PTP 1.07 — ADD
+## 15. TCG PTP 1.07 â€” ADD
 
 **PC Client Platform TPM Profile for TPM 2.0.** ML-DSA support mandatory in
 relevant profile.
 
 ---
 
-## 16. UEFI Secure Boot — ADD
+## 16. UEFI Secure Boot â€” ADD
 
 UEFI specification, section 32 (Secure Boot and Driver Signing). RSA/ECDSA-based
 cryptographic mechanisms, certificate path validation, Secure Boot databases
@@ -215,7 +215,7 @@ Anchor for OBS-008 (Secure Boot trust root).
 
 ---
 
-## 17. UEFI PQC work (2026) — ADD
+## 17. UEFI PQC work (2026) â€” ADD
 
 UEFI Forum PQC planning/work related to Secure Boot, ML-KEM/ML-DSA/SLH-DSA,
 firmware authentication.
@@ -224,7 +224,7 @@ Anchor for OBS-029 (UEFI PQC direction).
 
 ---
 
-## 18. CA/Browser Forum Ballot SC-081 — ADD
+## 18. CA/Browser Forum Ballot SC-081 â€” ADD
 
 TLS certificate lifetime reduction. Staged milestones:
 - 200 days (March 15, 2026)
@@ -235,7 +235,7 @@ Anchor for OBS-032.
 
 ---
 
-## 19. DORA Article 30 — ADD
+## 19. DORA Article 30 â€” ADD
 
 Contractual arrangements for ICT third-party risk management. Particularly
 relevant for PKI, CA, and signing-service vendors.
@@ -246,34 +246,34 @@ Anchor for OBS-038.
 
 ## Findings
 
-- **OBS-034** — NSA FAQ verification required
-- **OBS-025** — Modern IETF RFC references added (9881, 9882, 9909, 9964)
-- **OBS-026** — FIPS 204 errata status noted
-- **OBS-027** — SP 800-208 final status confirmed
-- **OBS-028** — TPM 2026 PQC support added (TCG v185)
-- **OBS-029** — UEFI PQC work added
-- **OBS-035** — NCSC ML-DSA-65 claim verification required
+- **OBS-034** â€” NSA FAQ verification required
+- **OBS-025** â€” Modern IETF RFC references added (9881, 9882, 9909, 9964)
+- **OBS-026** â€” FIPS 204 errata status noted
+- **OBS-027** â€” SP 800-208 final status confirmed
+- **OBS-028** â€” TPM 2026 PQC support added (TCG v185)
+- **OBS-029** â€” UEFI PQC work added
+- **OBS-035** â€” NCSC ML-DSA-65 claim verification required
 
 ---
 
-## Reference Architecture — proposed final set
+## Reference Architecture â€” proposed final set
 
 ### Primary technical standards
-- NIST FIPS 204 — ML-DSA (Final, August 2024; errata note)
-- NIST FIPS 205 — SLH-DSA (Final, August 2024)
-- NIST FIPS 186-5 — Digital Signature Standard (classical baseline)
-- NIST SP 800-208 — Stateful Hash-Based Signatures (LMS, XMSS; Final, October 2020)
+- NIST FIPS 204 â€” ML-DSA (Final, August 2024; errata note)
+- NIST FIPS 205 â€” SLH-DSA (Final, August 2024)
+- NIST FIPS 186-5 â€” Digital Signature Standard (classical baseline)
+- NIST SP 800-208 â€” Stateful Hash-Based Signatures (LMS, XMSS; Final, October 2020)
 
 ### Migration guidance / roadmaps
 - NIST IR 8547 (Initial Public Draft, 12 November 2024)
-- NCSC — PQC migration guidance
+- NCSC â€” PQC migration guidance
 - EU Coordinated Implementation Roadmap for the Transition to PQC
 
 ### IETF standards
-- RFC 9881 — ML-DSA in X.509
-- RFC 9882 — ML-DSA in CMS
-- RFC 9909 — SLH-DSA in X.509
-- RFC 9964 — ML-DSA for JOSE and COSE
+- RFC 9881 â€” ML-DSA in X.509
+- RFC 9882 â€” ML-DSA in CMS
+- RFC 9909 â€” SLH-DSA in X.509
+- RFC 9964 â€” ML-DSA for JOSE and COSE
 
 ### U.S. government policy
 - NSA CNSA 2.0

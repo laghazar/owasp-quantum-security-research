@@ -14,23 +14,23 @@ work rather than relying mainly on generic references.
 ## Proposed additions
 
 ### Primary standards
-- NIST FIPS 204 — ML-DSA (Final, August 2024; errata note)
-- NIST FIPS 205 — SLH-DSA (Final, August 2024)
-- NIST FIPS 186-5 — classical signature baseline
-- NIST SP 800-208 — LMS/XMSS stateful hash-based signatures (Final, October 2020)
+- NIST FIPS 204 â€” ML-DSA (Final, August 2024; errata note)
+- NIST FIPS 205 â€” SLH-DSA (Final, August 2024)
+- NIST FIPS 186-5 â€” classical signature baseline
+- NIST SP 800-208 â€” LMS/XMSS stateful hash-based signatures (Final, October 2020)
 
 ### IETF standards
-- RFC 9881 — ML-DSA in X.509 (October 2025)
-- RFC 9882 — ML-DSA in CMS (October 2025)
-- RFC 9909 — SLH-DSA in X.509 (December 2025)
-- RFC 9964 — ML-DSA for JOSE and COSE (May 2026)
+- RFC 9881 â€” ML-DSA in X.509 (October 2025)
+- RFC 9882 â€” ML-DSA in CMS (October 2025)
+- RFC 9909 â€” SLH-DSA in X.509 (December 2025)
+- RFC 9964 â€” ML-DSA for JOSE and COSE (May 2026)
 
 ### Platform specifications
-- TCG TPM 2.0 v185 — PQC support (ML-KEM, ML-DSA, Attestation Keys)
-- TCG PTP 1.07 — ML-DSA in PC Client TPM profile
-- UEFI Secure Boot — firmware / code-signing trust
+- TCG TPM 2.0 v185 â€” PQC support (ML-KEM, ML-DSA, Attestation Keys)
+- TCG PTP 1.07 â€” ML-DSA in PC Client TPM profile
+- UEFI Secure Boot â€” firmware / code-signing trust
 - UEFI PQC work (2026)
-- CA/Browser Forum Ballot SC-081 — TLS certificate lifetime reduction
+- CA/Browser Forum Ballot SC-081 â€” TLS certificate lifetime reduction
 
 ### EU regulatory
 - NIS2 Article 21(2)(h)
@@ -39,19 +39,19 @@ work rather than relying mainly on generic references.
 
 ## Specific corrections
 
-- OBS-025 — Add modern IETF references
-- OBS-026 — Note FIPS 204 errata status
-- OBS-027 — SP 800-208 final status
-- OBS-028 — Add TPM 2026 PQC support
-- OBS-029 — Add UEFI PQC direction
-- OBS-032 — CA/B Forum staged timeline precision
-- OBS-033 — CNSA 2.0 scope precision
-- OBS-034 — NSA FAQ document number verification
-- OBS-035 — NCSC ML-DSA-65 claim verification
-- OBS-036 — CNSA 2.0 timeline precision
-- OBS-037 — CRA qualification
-- OBS-038 — DORA Art. 30 emphasis
-- OBS-039 — Mapping TODO resolution
+- OBS-025 â€” Add modern IETF references
+- OBS-026 â€” Note FIPS 204 errata status
+- OBS-027 â€” SP 800-208 final status
+- OBS-028 â€” Add TPM 2026 PQC support
+- OBS-029 â€” Add UEFI PQC direction
+- OBS-032 â€” CA/B Forum staged timeline precision
+- OBS-033 â€” CNSA 2.0 scope precision
+- OBS-034 â€” NSA FAQ document number verification
+- OBS-035 â€” NCSC ML-DSA-65 claim verification
+- OBS-036 â€” CNSA 2.0 timeline precision
+- OBS-037 â€” CRA qualification
+- OBS-038 â€” DORA Art. 30 emphasis
+- OBS-039 â€” Mapping TODO resolution
 
 ## Each reference should be classified
 

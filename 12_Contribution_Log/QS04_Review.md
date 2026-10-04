@@ -31,13 +31,13 @@ precision + GRC and governance model + Regulatory mapping
 
 ## Four key contributions
 
-1. **Discovery vs inventory vs CBOM vs SBOM** — distinct concepts, not
+1. **Discovery vs inventory vs CBOM vs SBOM** â€” distinct concepts, not
    synonyms
-2. **Dependency mapping as core** — not context; determines migration
+2. **Dependency mapping as core** â€” not context; determines migration
    priority
-3. **False assurance risk** — incomplete inventory believed complete is more
+3. **False assurance risk** â€” incomplete inventory believed complete is more
    dangerous than no inventory
-4. **Coverage / evidence / freshness model** — measurable inventory quality
+4. **Coverage / evidence / freshness model** â€” measurable inventory quality
    metrics
 
 ## Cross-entry work produced

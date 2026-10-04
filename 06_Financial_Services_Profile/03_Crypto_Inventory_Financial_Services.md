@@ -1,4 +1,4 @@
-# Cryptographic Inventory — Financial Services Profile
+# Cryptographic Inventory â€” Financial Services Profile
 
 Sector-specific extension of QS04. Maintained separately so that the main
 QS04 entry remains vendor-neutral and sector-neutral.
@@ -48,14 +48,14 @@ supervisory reporting all become unreliable.
 
 ## 3. Inventory scope model for financial services
 
-### Layer 1 — Assets
+### Layer 1 â€” Assets
 - Algorithms, primitives, parameters
 - Keys, certificates, trust anchors
 - Protocols, libraries, providers
 - HSM/TPM objects, firmware, silicon
 - Cloud KMS keys
 
-### Layer 2 — Usage
+### Layer 2 â€” Usage
 - Payment authorization
 - Transaction signing
 - Customer authentication
@@ -64,7 +64,7 @@ supervisory reporting all become unreliable.
 - Data at rest (transaction records, KYC/AML)
 - Code signing (mobile, desktop, firmware)
 
-### Layer 3 — Dependencies
+### Layer 3 â€” Dependencies
 - Business services
 - Data classification
 - Third parties (SWIFT, payment processors, cloud, SaaS)
@@ -121,7 +121,7 @@ cases migrated no later than end-2030.
 
 ## 5. Financial-services specific inventory challenges
 
-### Challenge A — Payment HSM opacity
+### Challenge A â€” Payment HSM opacity
 
 Payment HSMs (Thales payShield, Atalla, etc.) abstract key hierarchies and
 provide limited programmatic visibility. Discovery must rely on:
@@ -131,18 +131,18 @@ provide limited programmatic visibility. Discovery must rely on:
 - Key ceremony documentation
 - Physical records for HSM partitions and roles
 
-### Challenge B — SWIFT key management
+### Challenge B â€” SWIFT key management
 
 SWIFT-related keys follow SWIFT-specific lifecycle and custody practices.
 Inventory should reference SWIFT documentation and certification requirements,
 not just generic KMS/HSM practices.
 
-### Challenge C — M&A inherited infrastructure
+### Challenge C â€” M&A inherited infrastructure
 
 Mergers and acquisitions routinely introduce foreign CAs, signing keys, and
 trust anchors not registered in the central inventory.
 
-### Challenge D — ATM/POS firmware signing
+### Challenge D â€” ATM/POS firmware signing
 
 ATM/POS firmware is often vendor-managed. Signing keys may be:
 - Held by the vendor (opaque to the bank)
@@ -151,7 +151,7 @@ ATM/POS firmware is often vendor-managed. Signing keys may be:
 
 Inventory must record the management model, not just the key existence.
 
-### Challenge E — Cloud KMS provider lock-in
+### Challenge E â€” Cloud KMS provider lock-in
 
 Cloud KMS providers expose cryptographic operations via APIs but abstract
 algorithm choice, key custody, and rotation. Inventory should record:
@@ -162,10 +162,10 @@ algorithm choice, key custody, and rotation. Inventory should record:
 - Region and residency
 - Provider's PQC roadmap commitment
 
-### Challenge F — Third-party SaaS crypto
+### Challenge F â€” Third-party SaaS crypto
 
 SaaS providers terminate TLS, issue certificates, sign tokens, and store
-data — but cryptographic configurations are often opaque. Inventory should
+data â€” but cryptographic configurations are often opaque. Inventory should
 record declared state, observed state, and where possible verified state.
 
 ---
@@ -221,10 +221,10 @@ For each asset:
 
 ## 9. Cross-references
 
-- QS04 — Cryptographic discovery and inventory framework (parent entry)
-- QS01 — HNDL confidentiality exposure
-- QS03 — Signature and trust exposure
-- QS05 — Crypto agility
-- QS06 — Secure PQC/hybrid migration
-- QS07 — Hardware roots of trust (HSM, TPM, Secure Boot)
+- QS04 â€” Cryptographic discovery and inventory framework (parent entry)
+- QS01 â€” HNDL confidentiality exposure
+- QS03 â€” Signature and trust exposure
+- QS05 â€” Crypto agility
+- QS06 â€” Secure PQC/hybrid migration
+- QS07 â€” Hardware roots of trust (HSM, TPM, Secure Boot)
 - DORA RTS Article 6 / Article 7 (regulatory anchors)

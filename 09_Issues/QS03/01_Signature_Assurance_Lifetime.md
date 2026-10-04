@@ -48,9 +48,9 @@ security as a confidentiality problem.
 
 ## Related entries
 
-- QS04 — signature and trust dependency discovery
-- QS05 — crypto agility
-- QS06 — secure PQC migration
+- QS04 â€” signature and trust dependency discovery
+- QS05 â€” crypto agility
+- QS06 â€” secure PQC migration
 
 ## Acceptance
 

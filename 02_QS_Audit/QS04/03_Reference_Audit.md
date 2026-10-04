@@ -1,4 +1,4 @@
-# QS04 — Reference Links Audit (FULL, unified)
+# QS04 â€” Reference Links Audit (FULL, unified)
 
 Audit chain: Claim -> Reference -> Evidence -> Supports claim? -> Scope -> Status -> Keep/Replace/Add
 
@@ -19,11 +19,11 @@ Audit chain: Claim -> Reference -> Evidence -> Supports claim? -> Scope -> Statu
 
 ## Detailed assessment
 
-### 1. UK NCSC — PQC Migration Timelines
+### 1. UK NCSC â€” PQC Migration Timelines
 
 **Claim in QS04:** "NCSC 2028 discovery-and-assessment milestone."
 
-**Assessment:** KEEP — scope-qualified
+**Assessment:** KEEP â€” scope-qualified
 
 NCSC guidance:
 - 2028: full discovery and assessment + initial migration plan
@@ -68,11 +68,11 @@ every company.
 
 ---
 
-### 3. CISA / NSA / NIST — Quantum-Readiness fact sheet
+### 3. CISA / NSA / NIST â€” Quantum-Readiness fact sheet
 
 **Claim in QS04:** "Cryptographic inventory recommendation."
 
-**Assessment:** KEEP — verify title and date
+**Assessment:** KEEP â€” verify title and date
 
 Verify:
 - Exact title
@@ -83,7 +83,7 @@ Verify:
 The fact sheet explicitly recommends organizations: develop a roadmap,
 conduct inventories, perform risk assessments, engage vendors. Cryptographic
 discovery should include systems/assets that create or validate digital
-signatures — including software and firmware updates.
+signatures â€” including software and firmware updates.
 
 **Action:** Verify from official source. If title/date is imprecise, correct
 in the reference list.
@@ -125,13 +125,13 @@ formally added in CycloneDX 1.6 (2024).
 Initial Public Draft, 12 November 2024. Transition planning document.
 
 **Proposed wording:**
-> "NIST IR 8547 (Initial Public Draft) — Transition to Post-Quantum
+> "NIST IR 8547 (Initial Public Draft) â€” Transition to Post-Quantum
 > Cryptography Standards. Transition planning guidance, not a normative
 > standard."
 
 ---
 
-### 6. CycloneDX Cryptography Registry — ADD
+### 6. CycloneDX Cryptography Registry â€” ADD
 
 **Reason:** The Registry provides canonical machine-readable definitions for
 algorithms, curves, and cryptographic primitives. It solves the naming
@@ -142,7 +142,7 @@ QS04-OBS-028.
 
 ---
 
-### 7. CycloneDX use case documentation — ADD
+### 7. CycloneDX use case documentation â€” ADD
 
 **Reason:** CycloneDX publishes dedicated inventory-management use cases for
 cryptographic keys and cryptographic certificates. These provide
@@ -158,7 +158,7 @@ field-level modeling examples:
 
 ---
 
-### 8. SPDX specification — REPHRASE
+### 8. SPDX specification â€” REPHRASE
 
 **Current QS04 wording:**
 > "aligning with CycloneDX or SPDX cryptographic extensions"
@@ -179,32 +179,32 @@ This preserves vendor neutrality and avoids misattribution to SPDX.
 
 ## Findings
 
-**OBS-004 — SPDX claim unsupported.** Rephrase or remove SPDX CBOM-equivalence
+**OBS-004 â€” SPDX claim unsupported.** Rephrase or remove SPDX CBOM-equivalence
 wording.
 
-**OBS-005 — Use current CycloneDX model.** Specify CBOM asset types and
+**OBS-005 â€” Use current CycloneDX model.** Specify CBOM asset types and
 relationships.
 
-**OBS-007 — Version precision.** Specify CycloneDX 1.6+.
+**OBS-007 â€” Version precision.** Specify CycloneDX 1.6+.
 
-**OBS-009 — CISA/NSA/NIST fact sheet verification.** Verify title and date
+**OBS-009 â€” CISA/NSA/NIST fact sheet verification.** Verify title and date
 before submission.
 
-**OBS-043 — NCSC scope.** 2028 milestone is UK NCSC guidance, not universal
+**OBS-043 â€” NCSC scope.** 2028 milestone is UK NCSC guidance, not universal
 deadline.
 
-**OBS-044 — EU roadmap scope.** Coordination framework, not binding
+**OBS-044 â€” EU roadmap scope.** Coordination framework, not binding
 regulation on every company.
 
 ---
 
-## Reference Architecture — proposed final set
+## Reference Architecture â€” proposed final set
 
 ### Primary references
-- UK NCSC — Timelines for migration to post-quantum cryptography
-- CISA / NSA / NIST — Quantum-Readiness: Migration to Post-Quantum
+- UK NCSC â€” Timelines for migration to post-quantum cryptography
+- CISA / NSA / NIST â€” Quantum-Readiness: Migration to Post-Quantum
   Cryptography fact sheet
-- NIST IR 8547 (Initial Public Draft) — Transition to Post-Quantum
+- NIST IR 8547 (Initial Public Draft) â€” Transition to Post-Quantum
   Cryptography Standards
 - EU Coordinated Implementation Roadmap for the Transition to PQC
 
@@ -219,8 +219,8 @@ regulation on every company.
 - SBOM / SBOM-adjacent guidance (to be cross-referenced, not conflated)
 
 ### EU regulatory references
-- NIS2 Article 21(2)(h) — cryptography and encryption policies
-- DORA Article 9 — ICT risk management
-- DORA RTS Art. 6 — encryption and cryptographic controls
-- DORA RTS Art. 7 — cryptographic key lifecycle
-- CRA Annex I — products with digital elements security requirements
+- NIS2 Article 21(2)(h) â€” cryptography and encryption policies
+- DORA Article 9 â€” ICT risk management
+- DORA RTS Art. 6 â€” encryption and cryptographic controls
+- DORA RTS Art. 7 â€” cryptographic key lifecycle
+- CRA Annex I â€” products with digital elements security requirements

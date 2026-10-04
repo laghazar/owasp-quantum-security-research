@@ -1,4 +1,4 @@
-# QS03 — Regulatory Mapping Table
+# QS03 â€” Regulatory Mapping Table
 
 Reusable across QS entries.
 

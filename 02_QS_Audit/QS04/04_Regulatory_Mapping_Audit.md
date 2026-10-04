@@ -1,4 +1,4 @@
-# QS04 — Standards and Regulatory Mapping Audit (FULL)
+# QS04 â€” Standards and Regulatory Mapping Audit (FULL)
 
 ## Problem
 
@@ -26,18 +26,18 @@ Same as QS01 and QS03:
 
 ## Category classification
 
-### Category A — Government migration guidance
+### Category A â€” Government migration guidance
 - UK NCSC PQC Timelines
 - CISA / NSA / NIST Quantum-Readiness fact sheet
 - EU Coordinated PQC Roadmap
 
-### Category B — Standards / specifications
-- NIST IR 8547 (Initial Public Draft) — transition planning
+### Category B â€” Standards / specifications
+- NIST IR 8547 (Initial Public Draft) â€” transition planning
 - CycloneDX CBOM
 - CycloneDX Cryptography Registry
 - SPDX specification
 
-### Category C — EU regulatory references
+### Category C â€” EU regulatory references
 - NIS2 Art. 21(2)(h)
 - DORA Art. 9
 - DORA RTS Art. 6
@@ -48,22 +48,22 @@ Same as QS01 and QS03:
 
 ## Key findings
 
-**OBS-004 — SPDX claim unsupported.**
+**OBS-004 â€” SPDX claim unsupported.**
 Rephrase or remove SPDX CBOM-equivalence wording.
 
-**OBS-043 — NCSC scope precision.**
+**OBS-043 â€” NCSC scope precision.**
 NCSC 2028 milestone is UK guidance, not universal deadline.
 
-**OBS-044 — EU roadmap scope precision.**
+**OBS-044 â€” EU roadmap scope precision.**
 EU roadmap is Member State coordination framework, not direct regulation.
 
-**OBS-045 — CISA/NSA/NIST fact sheet strength.**
+**OBS-045 â€” CISA/NSA/NIST fact sheet strength.**
 Strong primary evidence for cryptographic discovery as readiness activity.
 
-**OBS-046 — Regulatory mapping precision.**
+**OBS-046 â€” Regulatory mapping precision.**
 NIS2, DORA, CRA do not mandate CBOM directly.
 
-**OBS-052 — CRA regulatory mapping.**
+**OBS-052 â€” CRA regulatory mapping.**
 CRA applies to products with digital elements; cryptographic inventory is an
 implementation mechanism, not an explicit CRA mandate.
 
@@ -86,20 +86,20 @@ implementation mechanism, not an explicit CRA mandate.
 
 ---
 
-## NIS2 Article 21(2)(h) — Scope precision
+## NIS2 Article 21(2)(h) â€” Scope precision
 
 NIS2 includes policies and procedures regarding the use of cryptography and,
 where appropriate, encryption, among the cybersecurity risk-management
 measures.
 
 - NIS2 does NOT say "all organisations must maintain a CBOM"
-- Phrase as: "NIS2 Article 21(2)(h) — policies and procedures regarding the
+- Phrase as: "NIS2 Article 21(2)(h) â€” policies and procedures regarding the
   use of cryptography and, where appropriate, encryption"
 - NOT as: "NIS2 mandates CBOM"
 
 ---
 
-## DORA — Scope precision
+## DORA â€” Scope precision
 
 ### Article 9
 Financial entities must maintain high standards of confidentiality, integrity,
@@ -134,7 +134,7 @@ and SaaS vendors.
 
 ---
 
-## CRA Annex I — Qualification
+## CRA Annex I â€” Qualification
 
 CRA Annex I requires products with digital elements to have an appropriate
 level of cybersecurity, including data confidentiality and integrity.

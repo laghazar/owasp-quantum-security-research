@@ -45,9 +45,9 @@ mechanisms.
 
 ## Related entries
 
-- QS01 — confidentiality lifetime / HNDL
-- QS04 — inventory of signed artifacts and cryptographic dependencies
-- QS06 — migration implementation
+- QS01 â€” confidentiality lifetime / HNDL
+- QS04 â€” inventory of signed artifacts and cryptographic dependencies
+- QS06 â€” migration implementation
 
 ## Acceptance
 

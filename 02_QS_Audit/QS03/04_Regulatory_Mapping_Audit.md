@@ -1,4 +1,4 @@
-# QS03 — Standards and Regulatory Mapping Audit (FULL)
+# QS03 â€” Standards and Regulatory Mapping Audit (FULL)
 
 ## Problem (OBS-039)
 
@@ -32,33 +32,33 @@ format, and verify each standard/citation."
 
 ## Category classification
 
-### Category A — Cryptographic standards
+### Category A â€” Cryptographic standards
 - NIST FIPS 204 (final)
 - NIST FIPS 205 (final)
-- NIST FIPS 186-5 (final — classical baseline)
+- NIST FIPS 186-5 (final â€” classical baseline)
 - NIST SP 800-208 (final)
 - NIST IR 8547 (draft)
 
-### Category B — Government / policy migration guidance
+### Category B â€” Government / policy migration guidance
 - NSA CNSA 2.0
 - NSA CNSA 2.0 FAQ
 - NCSC PQC guidance
 - EU Coordinated PQC Roadmap
 
-### Category C — IETF standards
-- RFC 9881 — ML-DSA in X.509
-- RFC 9882 — ML-DSA in CMS
-- RFC 9909 — SLH-DSA in X.509
-- RFC 9964 — ML-DSA for JOSE and COSE
+### Category C â€” IETF standards
+- RFC 9881 â€” ML-DSA in X.509
+- RFC 9882 â€” ML-DSA in CMS
+- RFC 9909 â€” SLH-DSA in X.509
+- RFC 9964 â€” ML-DSA for JOSE and COSE
 
-### Category D — Platform specifications / industry
+### Category D â€” Platform specifications / industry
 - TCG TPM 2.0 v185
 - TCG PTP 1.07
 - UEFI Secure Boot
 - CA/Browser Forum Ballot SC-081
 - IETF LAMPS Working Group
 
-### Category E — EU regulatory references
+### Category E â€” EU regulatory references
 - NIS2 Article 21(2)(h)
 - DORA Articles 28-44 (esp. Article 30)
 - CRA Annex I
@@ -67,27 +67,27 @@ format, and verify each standard/citation."
 
 ## Key findings
 
-**OBS-039 — Mapping TODO must be resolved.**
+**OBS-039 â€” Mapping TODO must be resolved.**
 Adopt taxonomy table. Verify each citation.
 
-**OBS-035 — Verify NCSC ML-DSA-65 claim.**
+**OBS-035 â€” Verify NCSC ML-DSA-65 claim.**
 Direct NCSC source verification required. If unverifiable, rephrase.
 
-**OBS-036 — CNSA 2.0 timeline precision.**
+**OBS-036 â€” CNSA 2.0 timeline precision.**
 2025 / 2027 / 2030 / 2033 milestones.
 
-**OBS-037 — CRA Annex I qualification.**
+**OBS-037 â€” CRA Annex I qualification.**
 Not a PQC mandate. Rephrase as risk-assessment-driven.
 
-**OBS-038 — DORA Art. 30 emphasis.**
+**OBS-038 â€” DORA Art. 30 emphasis.**
 Contractual arrangements for PKI / signing-service vendors.
 
-**OBS-033 — CNSA 2.0 scope precision.**
+**OBS-033 â€” CNSA 2.0 scope precision.**
 NSS only. Single-tree LMS/XMSS only. ML-DSA approved. SLH-DSA NOT approved.
 
 ---
 
-## CNSA 2.0 — Scope limitation
+## CNSA 2.0 â€” Scope limitation
 
 NSA's CNSA 2.0 advisory is specifically for National Security Systems (NSS)
 and related assets.
@@ -108,20 +108,20 @@ organisations.
 
 ---
 
-## NIS2 Article 21(2)(h) — Scope precision
+## NIS2 Article 21(2)(h) â€” Scope precision
 
 NIS2 includes policies and procedures regarding the use of cryptography and,
 where appropriate, encryption, among the cybersecurity risk-management
 measures.
 
 - NIS2 does NOT say "all organisations must deploy PQC"
-- Phrase as: "NIS2 Article 21(2)(h) — policies and procedures regarding the
+- Phrase as: "NIS2 Article 21(2)(h) â€” policies and procedures regarding the
   use of cryptography and, where appropriate, encryption"
 - NOT as: "NIS2 mandates PQC"
 
 ---
 
-## DORA Articles 28-44 — Scope precision
+## DORA Articles 28-44 â€” Scope precision
 
 DORA's ICT third-party risk management framework applies to PKI, CA, and
 signing-service vendors.
@@ -139,7 +139,7 @@ Key requirements under Art. 30:
 
 ---
 
-## CRA Annex I — Qualification
+## CRA Annex I â€” Qualification
 
 CRA Annex I requires products with digital elements to have an appropriate
 level of cybersecurity, including data confidentiality and integrity.

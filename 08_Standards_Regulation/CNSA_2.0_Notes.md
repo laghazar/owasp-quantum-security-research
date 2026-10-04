@@ -1,4 +1,4 @@
-# CNSA 2.0 — Notes for QS01 and QS03
+# CNSA 2.0 â€” Notes for QS01 and QS03
 
 **Source:** NSA Commercial National Security Algorithm Suite 2.0
 **Scope:** U.S. National Security Systems (NSS) only
@@ -51,5 +51,5 @@
 
 ## Cross-references
 
-- QS01 — HNDL exposure (contextual use of CNSA 2.0)
-- QS03 — Vulnerable Signatures and Code-Signing (primary use for firmware/software signing)
+- QS01 â€” HNDL exposure (contextual use of CNSA 2.0)
+- QS03 â€” Vulnerable Signatures and Code-Signing (primary use for firmware/software signing)

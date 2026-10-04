@@ -1,4 +1,4 @@
-# QS04 — Unified Master Finding Register
+# QS04 â€” Unified Master Finding Register
 
 52 findings (46 unified + 6 unique additions). Not submitted to OWASP directly.
 Consolidated into 4 Issues + 1 PR.
@@ -7,13 +7,13 @@ Consolidated into 4 Issues + 1 PR.
 
 ## ?? CRITICAL
 
-### QS04-OBS-001 — "Absent" is too binary
+### QS04-OBS-001 â€” "Absent" is too binary
 
 **Type:** Structural
 **Disposition:** PR
 
 Real organizations have partial, stale, fragmented, non-authoritative,
-unconnected inventories — not zero. Risk is a **visibility gap**.
+unconnected inventories â€” not zero. Risk is a **visibility gap**.
 
 **Proposed:**
 > "Cryptographic Discovery and Inventory Failures" or "Cryptographic
@@ -21,7 +21,7 @@ unconnected inventories — not zero. Risk is a **visibility gap**.
 
 ---
 
-### QS04-OBS-002 — Inventory scope must be operationally defined
+### QS04-OBS-002 â€” Inventory scope must be operationally defined
 
 **Type:** Gap
 **Disposition:** PR + Issue
@@ -33,7 +33,7 @@ context.
 
 ---
 
-### QS04-OBS-003 — CBOM is not discovery / inventory / dependency map
+### QS04-OBS-003 â€” CBOM is not discovery / inventory / dependency map
 
 **Type:** Conceptual
 **Disposition:** PR + Issue
@@ -50,7 +50,7 @@ dependencies by itself.
 
 ---
 
-### QS04-OBS-004 — SPDX cryptographic-extension claim is unsupported
+### QS04-OBS-004 â€” SPDX cryptographic-extension claim is unsupported
 
 **Type:** Correction
 **Disposition:** Issue + PR
@@ -70,7 +70,7 @@ cryptographic profile equivalent to CycloneDX CBOM.
 
 ---
 
-### QS04-OBS-023 — Dependency mapping should be core, not context
+### QS04-OBS-023 â€” Dependency mapping should be core, not context
 
 **Type:** Structural
 **Disposition:** PR + Issue
@@ -89,7 +89,7 @@ Dependency graph is necessary for prioritization.
 
 ---
 
-### QS04-OBS-025 — "Single most common blocker" is unsupported
+### QS04-OBS-025 â€” "Single most common blocker" is unsupported
 
 **Type:** Correction
 **Disposition:** Issue + PR
@@ -109,14 +109,14 @@ No survey evidence supports this ranking.
 
 ## ?? VERY HIGH
 
-### QS04-OBS-005 — Use current CycloneDX cryptographic model
+### QS04-OBS-005 â€” Use current CycloneDX cryptographic model
 
 CycloneDX CBOM has explicit cryptographic-asset types: algorithm, protocol,
 certificate, key, token, secret, and relationships.
 
 ---
 
-### QS04-OBS-006 — Algorithm + key length is insufficient
+### QS04-OBS-006 â€” Algorithm + key length is insufficient
 
 "ECDSA / 256" does not say which curve, which implementation, which version,
 which purpose. Need primitive, parameter set, crypto function, execution
@@ -124,41 +124,41 @@ environment, implementation platform, quantum security level.
 
 ---
 
-### QS04-OBS-007 — "Key length" -> "algorithm parameters"
+### QS04-OBS-007 â€” "Key length" -> "algorithm parameters"
 
 Include key length, curve, parameter set, mode, hash, signature scheme, KEM
 parameter set, protocol version.
 
 ---
 
-### QS04-OBS-008 — Separate asset from usage
+### QS04-OBS-008 â€” Separate asset from usage
 
 Algorithm asset ? application usage. CBOM must model "used-by" and
 "protects" relationships.
 
 ---
 
-### QS04-OBS-009 — Add evidence / provenance
+### QS04-OBS-009 â€” Add evidence / provenance
 
 Every record needs: discovery source, discovery timestamp, last verified,
 confidence.
 
 ---
 
-### QS04-OBS-010 — Living inventory needs operational mechanisms
+### QS04-OBS-010 â€” Living inventory needs operational mechanisms
 
 Continuous inventory + event-driven updates + scheduled discovery +
 reconciliation + staleness detection.
 
 ---
 
-### QS04-OBS-011 — Inventory freshness metric
+### QS04-OBS-011 â€” Inventory freshness metric
 
 % verified within N days, unknown crypto dependency rate, inventory coverage.
 
 ---
 
-### QS04-OBS-012 — Discovery tooling limitations
+### QS04-OBS-012 â€” Discovery tooling limitations
 
 TLS scanner = external posture only. CT logs = public certs only. Code
 scanning = source-level only. SBOM dependency = presence, not invocation.
@@ -166,20 +166,20 @@ Each has different visibility.
 
 ---
 
-### QS04-OBS-013 — CT logs are only one source
+### QS04-OBS-013 â€” CT logs are only one source
 
 Private/internal certificates are not in CT.
 
 ---
 
-### QS04-OBS-014 — HSM / TPM discovery constraints
+### QS04-OBS-014 â€” HSM / TPM discovery constraints
 
 Vendor API, administrative access, object metadata, policy limitations.
 Not visible via generic scanners.
 
 ---
 
-### QS04-OBS-015 — Embedded-key language too absolute
+### QS04-OBS-015 â€” Embedded-key language too absolute
 
 "cannot be enumerated" -> "may not be fully discoverable through
 software-only scanning and may require hardware manifests, manufacturer
@@ -188,87 +188,87 @@ documentation."
 
 ---
 
-### QS04-OBS-016 — Third-party / SaaS discovery
+### QS04-OBS-016 â€” Third-party / SaaS discovery
 
 Separate method: contractual requirement, security questionnaire, vendor
 documentation, attestation, SOC report, API/config evidence.
 
 ---
 
-### QS04-OBS-017 — Vendor-declared vs observed vs verified
+### QS04-OBS-017 â€” Vendor-declared vs observed vs verified
 
 Three-state model. Vendor documentation ? observed truth.
 
 ---
 
-### QS04-OBS-018 — Granular ownership model
+### QS04-OBS-018 â€” Granular ownership model
 
 Business Owner + System Owner + Crypto Service Owner + Key Custodian +
 Security Owner + Supplier Owner.
 
 ---
 
-### QS04-OBS-019 — Expand key lifecycle
+### QS04-OBS-019 â€” Expand key lifecycle
 
 creation, activation, expiration, rotation, backup, recovery, revocation,
 suspension, archival, destruction, compromise status.
 
 ---
 
-### QS04-OBS-020 — Inventory migration status tracking
+### QS04-OBS-020 â€” Inventory migration status tracking
 
 Quantum vulnerability, migration priority, migration status, target
 algorithm, target date, dependency, blocker, risk acceptance.
 
 ---
 
-### QS04-OBS-021 — Explicit unknown state
+### QS04-OBS-021 â€” Explicit unknown state
 
 Allow "Unknown", "Not assessed", "Not observable", "Vendor-controlled",
 "Not applicable". Unknown itself is a risk indicator.
 
 ---
 
-### QS04-OBS-022 — Feed QS01 / QS03 risk models
+### QS04-OBS-022 â€” Feed QS01 / QS03 risk models
 
 QS04 must include fields that QS01 and QS03 need.
 
 ---
 
-### QS04-OBS-024 — Dependency graph > simple asset list
+### QS04-OBS-024 â€” Dependency graph > simple asset list
 
 Prioritization requires relationship data.
 
 ---
 
-### QS04-OBS-027 — Normalization / canonical naming
+### QS04-OBS-027 â€” Normalization / canonical naming
 
-RSA vs RSA-2048 vs RSA2048 vs RSASSA-PKCS1-v1_5 — same asset. Normalize via
+RSA vs RSA-2048 vs RSA2048 vs RSASSA-PKCS1-v1_5 â€” same asset. Normalize via
 canonical vocabulary, preserve original for traceability.
 
 ---
 
-### QS04-OBS-033 — Migration-completeness scenario
+### QS04-OBS-033 â€” Migration-completeness scenario
 
 90% coverage -> migration declared complete -> 10% unknown estate with
 critical dependencies.
 
 ---
 
-### QS04-OBS-034 — False assurance risk
+### QS04-OBS-034 â€” False assurance risk
 
 Incomplete inventory believed to be complete is more dangerous than no
 inventory. Governance risk.
 
 ---
 
-### QS04-OBS-035 — Coverage / confidence metrics
+### QS04-OBS-035 â€” Coverage / confidence metrics
 
 Inventory coverage, dependency coverage, evidence coverage, freshness.
 
 ---
 
-### QS04-OBS-047 — CBOM vs SBOM boundary (UNIQUE)
+### QS04-OBS-047 â€” CBOM vs SBOM boundary (UNIQUE)
 
 **Type:** Structural / Clarification
 **Disposition:** PR
@@ -287,7 +287,7 @@ separately and cross-referenced.
 
 ---
 
-### QS04-OBS-048 — Dynamic / ephemeral crypto assets (UNIQUE)
+### QS04-OBS-048 â€” Dynamic / ephemeral crypto assets (UNIQUE)
 
 **Type:** Gap
 **Disposition:** PR
@@ -310,7 +310,7 @@ profile of the system.
 
 ## ?? HIGH
 
-### QS04-OBS-026 — Inventory itself needs protection
+### QS04-OBS-026 â€” Inventory itself needs protection
 
 CBOM may contain key identifiers, certificate identities, trust anchors,
 HSM info, internal service relationships. Never place private keys, API
@@ -318,13 +318,13 @@ secrets, passwords, raw secret values.
 
 ---
 
-### QS04-OBS-028 — Add CycloneDX Cryptography Registry
+### QS04-OBS-028 â€” Add CycloneDX Cryptography Registry
 
 Canonical naming/classification for algorithms and curves.
 
 ---
 
-### QS04-OBS-029 — Use current CBOM fields
+### QS04-OBS-029 â€” Use current CBOM fields
 
 Algorithm, primitive, parameter set, crypto functions, execution environment,
 implementation platform, quantum security level, state, size, format,
@@ -332,33 +332,33 @@ creation/activation/expiration date, securedBy, relatedCryptographicAssets.
 
 ---
 
-### QS04-OBS-030 — Preserve vendor neutrality
+### QS04-OBS-030 â€” Preserve vendor neutrality
 
-"Use CycloneDX where appropriate" — not "Everyone MUST use CycloneDX."
+"Use CycloneDX where appropriate" â€” not "Everyone MUST use CycloneDX."
 
 ---
 
-### QS04-OBS-031 — Improve forgotten-asset scenario
+### QS04-OBS-031 â€” Improve forgotten-asset scenario
 
 Show dependency-graph failure, not just "forgotten asset."
 
 ---
 
-### QS04-OBS-032 — Keep SaaS scenario within QS04 boundary
+### QS04-OBS-032 â€” Keep SaaS scenario within QS04 boundary
 
 Primary consequence in QS04 = "not inventoried, not risk assessed, not
 prioritized, not migrated." HNDL is downstream.
 
 ---
 
-### QS04-OBS-036 — Inventory is governance capability
+### QS04-OBS-036 â€” Inventory is governance capability
 
 Technical system + governance process + ownership + change management +
 supplier management + risk management.
 
 ---
 
-### QS04-OBS-037 — Expand change management integration
+### QS04-OBS-037 â€” Expand change management integration
 
 CMDB, PKI lifecycle, certificate issuance, KMS events, HSM changes, cloud
 deployment, IaC, software release, vendor onboarding, vendor renewal,
@@ -366,55 +366,55 @@ hardware procurement, decommissioning.
 
 ---
 
-### QS04-OBS-040 — QS05 boundary
+### QS04-OBS-040 â€” QS05 boundary
 
 QS04: What exists? What depends on it? What blocks migration?
 QS05: How agile is the architecture?
 
 ---
 
-### QS04-OBS-041 — QS06 boundary
+### QS04-OBS-041 â€” QS06 boundary
 
 Provide current algorithm, target algorithm, protocol, implementation,
 fallback, verifier, vendor, hardware, dependency.
 
 ---
 
-### QS04-OBS-042 — QS07 hardware fields
+### QS04-OBS-042 â€” QS07 hardware fields
 
 Hardware-backed yes/no, TPM/HSM/secure element, firmware version, PQC
 capability, update path, end-of-support.
 
 ---
 
-### QS04-OBS-043 — NCSC scope precision
+### QS04-OBS-043 â€” NCSC scope precision
 
 NCSC 2028 is a UK NCSC migration milestone, not a universal deadline.
 
 ---
 
-### QS04-OBS-044 — EU roadmap scope precision
+### QS04-OBS-044 â€” EU roadmap scope precision
 
 EU roadmap is coordinated implementation roadmap for Member States, not
 directly binding regulation on every company.
 
 ---
 
-### QS04-OBS-045 — CISA/NSA/NIST reference strength
+### QS04-OBS-045 â€” CISA/NSA/NIST reference strength
 
 Factsheet says: develop roadmap, conduct inventories, perform risk
 assessments, engage vendors.
 
 ---
 
-### QS04-OBS-046 — Regulatory mapping precision
+### QS04-OBS-046 â€” Regulatory mapping precision
 
 NIS2 does not mandate CBOM. DORA does not mandate CBOM. Frame as
 implementation mechanism for cryptographic risk management.
 
 ---
 
-### QS04-OBS-049 — CBOM in software supply chain (UNIQUE)
+### QS04-OBS-049 â€” CBOM in software supply chain (UNIQUE)
 
 **Type:** Extension
 **Disposition:** PR
@@ -428,7 +428,7 @@ implementation mechanism for cryptographic risk management.
 
 ---
 
-### QS04-OBS-050 — Cloud KMS visibility model (UNIQUE)
+### QS04-OBS-050 â€” Cloud KMS visibility model (UNIQUE)
 
 **Type:** Extension
 **Disposition:** PR
@@ -445,7 +445,7 @@ implementation mechanism for cryptographic risk management.
 
 ---
 
-### QS04-OBS-051 — Legacy protocol discovery (UNIQUE)
+### QS04-OBS-051 â€” Legacy protocol discovery (UNIQUE)
 
 **Type:** Extension
 **Disposition:** PR
@@ -459,7 +459,7 @@ implementation mechanism for cryptographic risk management.
 
 ---
 
-### QS04-OBS-052 — CRA regulatory mapping (UNIQUE)
+### QS04-OBS-052 â€” CRA regulatory mapping (UNIQUE)
 
 **Type:** Regulatory precision
 **Disposition:** PR
@@ -475,13 +475,13 @@ implementation mechanism for cryptographic risk management.
 
 ## ?? MEDIUM
 
-### QS04-OBS-038 — Replacement lifecycle
+### QS04-OBS-038 â€” Replacement lifecycle
 
-Application A retired, B replaces it — inventory must reflect both.
+Application A retired, B replaces it â€” inventory must reflect both.
 
 ---
 
-### QS04-OBS-039 — Decommissioning
+### QS04-OBS-039 â€” Decommissioning
 
 Discovered / Active / Deprecated / Retired / Destroyed / Unknown. Verify
 that retired crypto is truly revoked.

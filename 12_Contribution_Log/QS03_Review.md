@@ -31,16 +31,16 @@ analysis + Regulatory mapping + Reference landscape modernization
 
 ## Three novel contributions highlighted
 
-1. **Re-establishment failure** � migration is technically correct on every
+1. **Re-establishment failure** — migration is technically correct on every
    cryptographic measure, but the issuance flow accepted a compromised anchor.
    Split into three sub-modes (trust, cryptographic, key lifecycle).
 
-2. **Re-signing vs re-issuance** � signed artefacts (fixed content) can be
+2. **Re-signing vs re-issuance** — signed artefacts (fixed content) can be
    re-signed as remediation; credentials (key-control claims) require
    re-issuance resting on independent evidence; roots of trust require
    verifier update.
 
-3. **Signature assurance lifetime** � the period during which a relying party
+3. **Signature assurance lifetime** — the period during which a relying party
    needs confidence in a signature. Parallel to QS01's confidentiality
    lifetime but conceptually distinct.
 

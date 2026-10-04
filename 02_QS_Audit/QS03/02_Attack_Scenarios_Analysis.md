@@ -1,6 +1,6 @@
-# QS03 — Attack Scenarios Analysis (FULL)
+# QS03 â€” Attack Scenarios Analysis (FULL)
 
-## Merged scenario set — 5 total
+## Merged scenario set â€” 5 total
 
 - 3 existing OWASP scenarios (extended)
 - 2 new scenarios (credential, re-establishment failure)
@@ -10,7 +10,7 @@
 
 ---
 
-## Scenario 1 — Code-signing key compromise (ECDSA P-256)
+## Scenario 1 â€” Code-signing key compromise (ECDSA P-256)
 
 ### Current (OWASP draft)
 "An attacker with a future CRQC recovers the private key of a code-signing
@@ -51,7 +51,7 @@ decryption of the signed software.
 
 ---
 
-## Scenario 2 — Partial CA hierarchy migration
+## Scenario 2 â€” Partial CA hierarchy migration
 
 ### Current (OWASP draft)
 "An organisation migrates its leaf TLS certificates to PQC but leaves the root
@@ -88,7 +88,7 @@ policy, and relying-party trust store.
 
 ---
 
-## Scenario 3 — Long-lived signed artefact
+## Scenario 3 â€” Long-lived signed artefact
 
 ### Current (OWASP draft)
 "A vendor issues software releases signed with ECDSA, with signatures expected
@@ -131,7 +131,7 @@ classical scheme is deprecated is therefore remediation, not migration.
 
 ---
 
-## Scenario 4 — Long-lived credential
+## Scenario 4 â€” Long-lived credential
 
 ### Findings addressed
 - OBS-006 (re-establishment failure, mode A)
@@ -155,7 +155,7 @@ of the re-establishment failure mode described in the Description section.
 
 ---
 
-## Scenario 5 — Re-establishment failure
+## Scenario 5 â€” Re-establishment failure
 
 ### Findings addressed
 - OBS-006 (re-establishment failure, all 3 sub-modes)
@@ -194,7 +194,7 @@ update, and the device cannot safely transition.
 
 ---
 
-## Scenario 6 — Post-quantum signer with classical verifier
+## Scenario 6 â€” Post-quantum signer with classical verifier
 
 ### Findings addressed
 - OBS-021 (verifier migration)
@@ -218,7 +218,7 @@ migration policy.
 
 ---
 
-## Scenario 7 — Hardware-root migration failure
+## Scenario 7 â€” Hardware-root migration failure
 
 ### Findings addressed
 - OBS-008 (Secure Boot trust root)
@@ -244,7 +244,7 @@ than simply a weak cryptographic algorithm.
 
 ## Assessment tables
 
-### Scenario 1 — Code-signing key compromise
+### Scenario 1 â€” Code-signing key compromise
 | Element | Assessment |
 |---|---|
 | Core concept | Correct |
@@ -253,14 +253,14 @@ than simply a weak cryptographic algorithm.
 | Revocation limits | Needs extension |
 | Overall | Keep with extensions |
 
-### Scenario 2 — Partial CA hierarchy migration
+### Scenario 2 â€” Partial CA hierarchy migration
 | Element | Assessment |
 |---|---|
 | Chain integrity concept | Correct |
 | Weakest link precision | Needs extension |
 | Overall | Keep with extension |
 
-### Scenario 3 — Long-lived signed artefact
+### Scenario 3 â€” Long-lived signed artefact
 | Element | Assessment |
 |---|---|
 | Mosca's inequality use | Correct |
@@ -268,7 +268,7 @@ than simply a weak cryptographic algorithm.
 | Re-signing as remediation | Correct |
 | Overall | Keep with extension |
 
-### Scenario 4 — Long-lived credential (NEW)
+### Scenario 4 â€” Long-lived credential (NEW)
 | Element | Assessment |
 |---|---|
 | Core concept | Correct |
@@ -276,7 +276,7 @@ than simply a weak cryptographic algorithm.
 | Re-establishment risk | Highlighted |
 | Overall | Add to entry |
 
-### Scenario 5 — Re-establishment failure (NEW)
+### Scenario 5 â€” Re-establishment failure (NEW)
 | Element | Assessment |
 |---|---|
 | Core concept | Novel contribution |
@@ -284,14 +284,14 @@ than simply a weak cryptographic algorithm.
 | Sub-modes (A/B/C) | Explicit |
 | Overall | Add to entry |
 
-### Scenario 6 — PQC signer + classical verifier (NEW)
+### Scenario 6 â€” PQC signer + classical verifier (NEW)
 | Element | Assessment |
 |---|---|
 | Core concept | Verifier-side gap |
 | Downgrade risk | Explicit |
 | Overall | Add to entry |
 
-### Scenario 7 — Hardware-root migration failure (NEW)
+### Scenario 7 â€” Hardware-root migration failure (NEW)
 | Element | Assessment |
 |---|---|
 | Core concept | Hardware lifecycle constraint |
@@ -300,7 +300,7 @@ than simply a weak cryptographic algorithm.
 
 ---
 
-## Attack Scenarios — unified findings register
+## Attack Scenarios â€” unified findings register
 
 | ID | Finding | Type | Priority |
 |---|---|---|---|

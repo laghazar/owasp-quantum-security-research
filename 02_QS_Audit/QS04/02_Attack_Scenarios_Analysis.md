@@ -1,4 +1,4 @@
-# QS04 — Attack Scenarios Analysis (FULL)
+# QS04 â€” Attack Scenarios Analysis (FULL)
 
 ## Merged scenario set
 
@@ -8,7 +8,7 @@
 
 ---
 
-## Scenario 1 — Forgotten cryptographic trust dependency
+## Scenario 1 â€” Forgotten cryptographic trust dependency
 
 ### Current (OWASP draft)
 "An organisation begins PQC migration but has no CBOM. A forgotten
@@ -70,7 +70,7 @@ completeness.
 
 ---
 
-## Scenario 2 — Unmanaged SaaS cryptographic dependency
+## Scenario 2 â€” Unmanaged SaaS cryptographic dependency
 
 ### Current (OWASP draft)
 "A SaaS dependency terminates TLS with a quantum-vulnerable configuration the
@@ -103,7 +103,7 @@ SaaS and cloud dependencies present a specific inventory gap: the customer is
 often unaware of the cryptographic configuration used at the provider's edge.
 A SaaS provider may terminate TLS with quantum-vulnerable algorithms, use
 classical signatures for API authentication, or store customer data with
-classical key-encryption — none of which are visible in the customer's own
+classical key-encryption â€” none of which are visible in the customer's own
 inventory. The provider's cryptographic disclosure practices determine what
 the customer can inventory.
 
@@ -114,7 +114,7 @@ downstream HNDL outcome.
 
 ---
 
-## Scenario 3 — Migration completeness failure
+## Scenario 3 â€” Migration completeness failure
 
 ### Findings addressed
 - OBS-033 (migration completeness scenario)
@@ -149,7 +149,7 @@ A CBOM with 95% coverage should not be treated as equivalent to a CBOM with
 
 ---
 
-## Scenario 4 — Vendor-declared PQC readiness is not validated
+## Scenario 4 â€” Vendor-declared PQC readiness is not validated
 
 ### Findings addressed
 - OBS-017 (declared vs observed vs verified)
@@ -181,7 +181,7 @@ SBOMs, and cross-checked against observed state where feasible.
 
 ## Assessment tables
 
-### Scenario 1 — Forgotten trust dependency
+### Scenario 1 â€” Forgotten trust dependency
 | Element | Assessment |
 |---|---|
 | Core concept | Correct |
@@ -190,7 +190,7 @@ SBOMs, and cross-checked against observed state where feasible.
 | False assurance | Explicit |
 | Overall | Keep with extensions |
 
-### Scenario 2 — SaaS dependency
+### Scenario 2 â€” SaaS dependency
 | Element | Assessment |
 |---|---|
 | Core concept | Correct |
@@ -198,7 +198,7 @@ SBOMs, and cross-checked against observed state where feasible.
 | QS04-boundary | Explicit |
 | Overall | Keep with extension |
 
-### Scenario 3 — Migration completeness
+### Scenario 3 â€” Migration completeness
 | Element | Assessment |
 |---|---|
 | Core concept | New scenario |
@@ -206,7 +206,7 @@ SBOMs, and cross-checked against observed state where feasible.
 | False assurance | Explicit |
 | Overall | Add to entry |
 
-### Scenario 4 — Vendor-declared vs validated
+### Scenario 4 â€” Vendor-declared vs validated
 | Element | Assessment |
 |---|---|
 | Core concept | New scenario |
@@ -216,7 +216,7 @@ SBOMs, and cross-checked against observed state where feasible.
 
 ---
 
-## Attack Scenarios — findings register
+## Attack Scenarios â€” findings register
 
 | ID | Finding | Type | Priority |
 |---|---|---|---|

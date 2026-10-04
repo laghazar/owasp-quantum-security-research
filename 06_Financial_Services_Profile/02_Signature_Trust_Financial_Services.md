@@ -1,4 +1,4 @@
-# Signature Trust Exposure — Financial Services Profile
+# Signature Trust Exposure â€” Financial Services Profile
 
 Sector-specific extension of QS03. Maintained separately so that the main
 QS03 entry remains vendor-neutral and sector-neutral.
@@ -113,7 +113,7 @@ response to developments in cryptanalysis.
 Extends cryptographic key lifecycle to generation, renewal, storage, backup,
 archiving, retrieval, transmission, retirement, revocation, and destruction.
 
-### DORA Article 30 — Contractual arrangements
+### DORA Article 30 â€” Contractual arrangements
 Particularly relevant for PKI, certificate-authority, and signing-service
 vendors. Key requirements:
 - Contractual arrangements with ICT third-party service providers
@@ -136,31 +136,31 @@ appropriate, encryption, as part of cybersecurity risk-management measures.
 
 ## 5. Financial-services specific attack paths
 
-### Path A — Transaction integrity
+### Path A â€” Transaction integrity
 - Payment authorization signing key compromise
 - Transaction message forgery
 - API token forgery (JWT/SAML)
 - Clearing and settlement message forgery
 
-### Path B — Code and firmware
+### Path B â€” Code and firmware
 - Banking app signing key compromise
 - ATM / POS firmware signing compromise
 - Internal software distribution signing compromise
 - Device provisioning signing compromise
 
-### Path C — Trust chain
+### Path C â€” Trust chain
 - Root CA compromise
 - Intermediate CA compromise
 - Cross-signing abuse
 - Trust store poisoning
 
-### Path D — Long-lived artifacts
+### Path D â€” Long-lived artifacts
 - Signed contracts losing assurance
 - Regulatory evidence losing assurance
 - Archived transaction records losing assurance
 - KYC / AML dossiers losing assurance
 
-### Path E — Third-party
+### Path E â€” Third-party
 - Cloud provider code signing
 - SaaS providers signing tokens
 - Payment processors signing transactions
@@ -188,9 +188,9 @@ For each signed asset:
 
 ## 7. Cross-references
 
-- QS03 — Signature trust exposure framework (parent entry)
-- QS01 — HNDL confidentiality exposure (parallel Mosca's inequality)
-- QS04 — Cryptographic discovery and inventory
-- QS05 — Crypto agility
-- QS06 — Secure PQC/hybrid migration
-- QS07 — Hardware roots of trust (HSM, TPM, Secure Boot)
+- QS03 â€” Signature trust exposure framework (parent entry)
+- QS01 â€” HNDL confidentiality exposure (parallel Mosca's inequality)
+- QS04 â€” Cryptographic discovery and inventory
+- QS05 â€” Crypto agility
+- QS06 â€” Secure PQC/hybrid migration
+- QS07 â€” Hardware roots of trust (HSM, TPM, Secure Boot)

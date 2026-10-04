@@ -1,4 +1,4 @@
-# CBOM — References and Notes
+# CBOM â€” References and Notes
 
 Reference notes for cryptographic inventory and CBOM citations used across
 QS04, QS05, and other entries.
@@ -38,7 +38,7 @@ QS04, QS05, and other entries.
 
 ---
 
-## SPDX — precision note
+## SPDX â€” precision note
 
 The current SPDX specification has profiles (Core, Software, Security,
 Hardware, Service, SupplyChain, Operations) and extension mechanisms. The
@@ -67,7 +67,7 @@ other.
 
 ## Cross-references
 
-- QS04 — Cryptographic discovery and inventory (parent entry)
-- QS05 — Crypto agility (consumes CBOM)
-- QS06 — Secure migration (consumes CBOM)
+- QS04 â€” Cryptographic discovery and inventory (parent entry)
+- QS05 â€” Crypto agility (consumes CBOM)
+- QS06 â€” Secure migration (consumes CBOM)
 - 06_Financial_Services_Profile/03_Crypto_Inventory_Financial_Services.md

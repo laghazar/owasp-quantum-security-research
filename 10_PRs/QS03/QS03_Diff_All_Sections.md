@@ -1,4 +1,4 @@
-# QS03 — Full Diff (before / after, all sections)
+# QS03 â€” Full Diff (before / after, all sections)
 
 Full "after" text: 02_QS_Audit/QS03/05_Proposed_Text.md
 
