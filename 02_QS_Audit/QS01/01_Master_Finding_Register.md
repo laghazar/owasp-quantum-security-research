@@ -1,8 +1,7 @@
 # QS01 — Master Finding Register
 
 Internal audit register. Not submitted to OWASP directly.
-29 granular observations consolidated into ~10 findings and 4 Issues + 1 PR.
-
+27 granular observations consolidated into ~10 findings and 4 Issues + 1 PR.
 ---
 
 ## Critical
@@ -550,9 +549,8 @@ Terminology precision: key establishment, key agreement, key transport are
 distinct. Use precisely.
 **Disposition:** PR
 
-### QS01-OBS-007 — Re-encryption versus broader archive treatment
-
-See High section above.
+**Note.** OBS-007 (re-encryption vs broader archive treatment) is documented
+in the High section. It is not a separate Medium observation.
 
 ### QS01-OBS-008 — "Current TLS/VPN" qualification
 
@@ -602,3 +600,31 @@ Use "for example, an RSA-protected AES data-encryption key."
 | OBS-027 | CRA 2030 statement | Evidence | High | PR |
 | OBS-028 | DORA RTS Art. 6 / 7 | Missing ref | High | PR |
 | OBS-029 | Regulatory mapping taxonomy | Structural | High | PR + Issue |
+
+---
+
+## Finding Count Reconciliation
+
+**Status.** 2026-10-04
+
+Current master register status:
+
+- Unique observation IDs: 27
+- Historical claim referenced: 29 granular observations
+- Numeric gaps in sequence: QS01-OBS-006, QS01-OBS-015
+- Duplicate heading removed: QS01-OBS-007 (Medium section cross-reference)
+  — the substantive finding is documented once, in the High section
+
+**Reconciliation rules applied:**
+
+1. No missing observation is inferred from an unused numeric ID. Gaps in
+   the numbering sequence (OBS-006, OBS-015) are not treated as evidence
+   of dropped findings.
+2. No new finding is created solely to restore sequential numbering.
+3. A cross-reference entry that duplicates an existing heading is not
+   counted as a separate observation.
+
+**Total.** 27 unique observations.
+
+Any historical reference to 29 findings is retained as provenance
+information and is not treated as the current finding count.

@@ -3,7 +3,7 @@
 | Item | Type | Status | Notes |
 |---|---|---|---|
 | Master Review | Internal | Complete | 02_QS_Audit/QS01/00_Master_Review.md |
-| Finding Register | Internal | Complete | 29 observations |
+| Finding Register | Internal | Complete | 27 observations |
 | Attack Scenarios Analysis | Internal | Complete | |
 | Reference Audit | Internal | Complete | |
 | Regulatory Mapping Audit | Internal | Complete | |

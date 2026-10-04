@@ -5,7 +5,7 @@
 | Date | Action | Result |
 |---|---|---|
 | 2026-10-04 | QS01 review started | Master review + finding register |
-| 2026-10-04 | QS01 review completed | 29 granular observations; 4 Issues + 1 PR |
+| 2026-10-04 | QS01 review completed | 27 granular observations; 4 Issues + 1 PR |
 | - | Issues drafted | 09_Issues/QS01/ |
 | - | PR drafted | 10_PRs/QS01/ |
 | - | FSP drafted | 06_Financial_Services_Profile/ |
@@ -14,7 +14,7 @@
 
 ## Findings summary
 
-Critical: 1 | Very High: 3 | High: 20 | Medium: 5 | Total: 29
+Critical: 1 | Very High: 3 | High: 19 | Medium: 4 | Total: 27
 
 ## Contribution type
 

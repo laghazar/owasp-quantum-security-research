@@ -56,9 +56,9 @@ the current draft text.
 
 - **Critical:** 1 (QS01-OBS-003)
 - **Very High:** 3 (QS01-OBS-002, 012, 022)
-- **High:** 20 (QS01-OBS-001, 005, 007, 009, 010, 011, 013, 014, 016, 017, 019, 020, 023, 024, 025, 026, 027, 028, 029)
-- **Medium:** 5 (QS01-OBS-004, 008, 018, 021)
-- **Total granular observations:** 29
+- **High:** 19 (QS01-OBS-001, 005, 007, 009, 010, 011, 013, 014, 016, 017, 019, 020, 023, 024, 025, 026, 027, 028, 029)
+- **Medium:** 4 (QS01-OBS-004, 008, 018, 021)
+- **Total granular observations:** 27
 
 See `01_Master_Finding_Register.md` for the complete register.
 
