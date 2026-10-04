@@ -128,6 +128,35 @@ Notes:
 
 See `02_QS_Audit/QS09_Rapid_Audit.md` for the full rapid audit.
 
+---
+
+## QS10 - Side-Channel and Control-Plane Exposure
+
+Rapid audit. Findings: 6. Status: Complete (rapid). Platform surface.
+
+| ID | Date | QS | Observation | Evidence | Contribution | Disposition | Status |
+|---|---|---|---|---|---|---|---|
+| QS10-OBS-001 | 2026-10-04 | QS10 | Entry quality and threat-model discipline (positive) | Verified | Note only | Note | Drafted |
+| QS10-OBS-002 | 2026-10-04 | QS10 | Provider side-channel disclosure framework missing | Provisional | Contribution candidate | Needs research | Drafted |
+| QS10-OBS-003 | 2026-10-04 | QS10 | Physical-to-remote threat transition model absent | Provisional | Extension | Needs research | Drafted |
+| QS10-OBS-004 | 2026-10-04 | QS10 | Workload-level mitigation trade-offs not modeled | Provisional | Extension | Needs research | Drafted |
+| QS10-OBS-005 | 2026-10-04 | QS10 | FIPS 140-3 / Common Criteria operationalization | Provisional | Extension | Needs research | Drafted |
+| QS10-OBS-006 | 2026-10-04 | QS10 | Standards and Regulatory Mapping TODO (pattern) | Verified | Cross-entry pattern | Needs research | Drafted |
+
+Notes:
+
+- Rapid audit, not full deep-dive.
+- Third and final platform-surface entry.
+- Platform-surface three-layer model confirmed:
+  - QS09 toolchain layer
+  - QS08 execution layer
+  - QS10 infrastructure layer
+- Cross-entry contribution candidate: unified platform-surface
+  provider evidence model spanning QS08 + QS09 + QS10.
+- All 9 active entries now reviewed (QS01, QS03-QS10).
+
+See `02_QS_Audit/QS10_Rapid_Audit.md` for the full rapid audit.
+
 | QS | Findings | Issues drafted | PRs drafted | Status |
 |---|---|---|---|---|
 | QS01 | 29 | 4 | 1 | Draft - awaiting QS05-QS10 validation |
@@ -138,4 +167,5 @@ See `02_QS_Audit/QS09_Rapid_Audit.md` for the full rapid audit.
 | QS07 | 7 | 0 | 0 | Rapid audit complete |
 | QS08 | 7 | 0 | 0 | Rapid audit complete |
 | QS09 | 7 | 0 | 0 | Rapid audit complete |
-| **Total** | **153** | **12** | **3** | - |
+| QS10 | 6 | 0 | 0 | Rapid audit complete |
+| **Total** | **159** | **12** | **3** | - |
