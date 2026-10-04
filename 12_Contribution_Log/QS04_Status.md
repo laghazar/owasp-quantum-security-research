@@ -20,10 +20,10 @@
 ## Next actions
 
 1. Complete final evidence validation
-2. Submit Issue #1 (Critical) — Discovery and dependency mapping
+2. Reconcile umbrella Issue and consolidated PR
 3. Verify proposed changes against current OWASP main
 4. Submit one focused PR
-5. Track feedback and revision
+5. Track maintainer and community feedback
 
 ## Acceptance tracking
 

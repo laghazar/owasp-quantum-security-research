@@ -38,7 +38,7 @@ expressed in the same terms.
 ### Reason 3 - Contractual framing
 
 DORA Article 30 contractual arrangements benefit from referencing
-established frameworks. "Provider commits to SLSA Level 3 provenance
+established frameworks. "Provider commits to SLSA-based provenance at an assurance level appropriate to the threat model, such as
 for the transpiled artifact" is enforceable; "provider provides
 sufficient evidence" is not.
 
@@ -64,8 +64,8 @@ applicable SLSA levels.
 | Artifact | SLSA-relevant? | Target level | Rationale |
 |---|---|---|---|
 | A - Submitted circuit | No (tenant-authored) | N/A | Circuit is the tenant's own input; SLSA applies to build/transform artifacts |
-| B - Transformed artifact | Yes | SLSA 3 (target) | B is produced from A by the toolchain; non-forgeable provenance establishes that the toolchain produced B from A |
-| C - Dispatch artifact | Partial | SLSA 3 for the artifact component; RATS for the platform context | The artifact component can carry SLSA provenance; platform context (backend, calibration) is a RATS concern |
+| B - Transformed artifact | Yes | SLSA-based (assurance target selected by threat model) | B is produced from A by the toolchain; non-forgeable provenance establishes that the toolchain produced B from A |
+| C - Dispatch artifact | Partial | SLSA-based provenance for the artifact component; RATS for the platform context | The artifact component can carry SLSA provenance; platform context (backend, calibration) is a RATS concern |
 | D - Result record | No (SLSA) | N/A | Result records are runtime outputs, not build artifacts. RATS applies |
 
 ### SLSA applicability to Artifact B
@@ -177,7 +177,7 @@ following combined model.
 ### Artifact B - Transformed artifact
 
 - SLSA provenance target
-- Target level: SLSA 3
+- Target level: SLSA-based assurance level selected by threat model
 - SLSA provenance establishes A -> B binding
 - Evidence category after SLSA 3: Category 3 (verifiable binding)
 
@@ -208,7 +208,7 @@ platforms to the target state.
 
 | Binding | Current state | Target state | Mechanism |
 |---|---|---|---|
-| A -> B | Not established | Verifiable | SLSA 3 provenance for B |
+| A -> B | Not established | Verifiable | SLSA-based provenance for B |
 | B -> C | Not established | Verifiable | SLSA provenance + platform attestation |
 | C -> D | Not established | Verifiable | RATS Attestation Result |
 | A -> D | Not established | Composed | Transitive verification by tenant |
@@ -224,7 +224,7 @@ For financial entities procuring quantum platform services:
 ### Minimum requirements to specify in procurement
 
 1. **Toolchain provenance.** SLSA level for the transpiled artifact
-   (target: SLSA 3).
+   (target: SLSA-based, selected by threat model).
 2. **Platform attestation.** RATS-style attestation for backend
    identity, firmware version, and calibration state at execution
    time.

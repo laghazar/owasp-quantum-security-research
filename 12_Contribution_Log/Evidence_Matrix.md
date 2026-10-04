@@ -8,30 +8,30 @@ final gate before submission.
 
 ## Legend
 
-- ✅ Passed
-- ⚠️ Partial / needs work
-- ❌ Not yet
+- Passed
+- Partial / needs work
+- Not yet
 - N/A Not applicable to this candidate
 
 ## Contribution Candidates
 
 | Candidate | Content | Evidence | Technical | Regulatory | Cross-entry | Submission | Ready |
 |---|---|---|---|---|---|---|---|
-| QS01 umbrella (HNDL precision) | ✅ | ⚠️ | ✅ | ✅ | ✅ | ⚠️ | ❌ |
-| QS03 umbrella (signature trust) | ✅ | ⚠️ | ✅ | ✅ | ✅ | ⚠️ | ❌ |
-| QS04 umbrella (inventory) | ✅ | ⚠️ | ✅ | ✅ | ✅ | ⚠️ | ❌ |
-| QS09 deep dive (integrity chain) | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ |
-| QSxx Supply Chain proposal | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ |
-| QSxx Misdirected Countermeasures | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ |
-| QSxx Unverifiable Execution | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️ | ⚠️ |
-| FSP Unified Profile | ✅ | ⚠️ | ✅ | ✅ | ✅ | ⚠️ | ❌ |
+| QS01 umbrella (HNDL precision) | Passed | Partial | Passed | Passed | Passed | Partial | Not yet |
+| QS03 umbrella (signature trust) | Passed | Partial | Passed | Passed | Passed | Partial | Not yet |
+| QS04 umbrella (inventory) | Passed | Partial | Passed | Passed | Passed | Partial | Not yet |
+| QS09 deep dive (integrity chain) | Passed | Passed | Passed | Passed | Passed | Partial | Partial |
+| QSxx Supply Chain proposal | Passed | Passed | Passed | Passed | Passed | Partial | Partial |
+| QSxx Misdirected Countermeasures | Passed | Passed | Passed | Passed | Passed | Partial | Partial |
+| QSxx Unverifiable Execution | Passed | Passed | Passed | Passed | Passed | Partial | Partial |
+| FSP Unified Profile | Passed | Partial | Passed | Passed | Passed | Partial | Not yet |
 
 ## Gap Notes
 
 ### QS01, QS03, QS04 umbrella Issues
 
 - Content: complete
-- Evidence: partial — Current OWASP Main gap analysis not yet performed
+- Evidence: partial - Current OWASP Main gap analysis not yet performed
 - Submission: blocked on gap analysis (avoid duplicate submission)
 
 ### QS09 deep dive
@@ -55,15 +55,15 @@ final gate before submission.
 
 ## Pre-Submission Actions
 
-For each candidate marked Ready ❌ or ⚠️:
+For each candidate marked Not yet or Partial:
 
 1. Perform Current OWASP Main gap analysis against the candidate's
    target entry
 2. Identify specific delta between candidate findings and current
    OWASP main
 3. Confirm candidate is non-duplicative
-4. Update evidence status to ✅
-5. Then mark Ready ✅
+4. Update evidence status to Passed
+5. Then mark Ready
 
 ## Current Blockers to Submission
 

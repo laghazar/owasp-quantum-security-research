@@ -23,7 +23,7 @@
 2. Submit Issue #1
 3. Verify proposed changes against current OWASP main
 4. Submit one focused PR
-5. Track feedback and revision
+5. Track maintainer and community feedback
 
 ## Acceptance tracking
 
