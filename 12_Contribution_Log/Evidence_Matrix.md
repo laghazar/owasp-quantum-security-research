@@ -1,0 +1,79 @@
+# Evidence Matrix
+
+QA Checklist completion matrix for contribution candidates.
+
+This matrix tracks, for each contribution candidate, whether the
+Research_QA_Checklist.md gates have been passed. It is used as the
+final gate before submission.
+
+## Legend
+
+- Passed
+- Partial / needs work
+- Not yet
+- N/A Not applicable to this candidate
+
+## Contribution Candidates
+
+| Candidate | Content | Evidence | Technical | Regulatory | Cross-entry | Submission | Ready |
+|---|---|---|---|---|---|---|---|
+| QS01 umbrella (HNDL precision) | Passed | Partial | Passed | Passed | Passed | Partial | Not yet |
+| QS03 umbrella (signature trust) | Passed | Partial | Passed | Passed | Passed | Partial | Not yet |
+| QS04 umbrella (inventory) | Passed | Partial | Passed | Passed | Passed | Partial | Not yet |
+| QS09 deep dive (integrity chain) | Passed | Passed | Passed | Passed | Passed | Partial | Partial |
+| QSxx Supply Chain proposal | Passed | Passed | Passed | Passed | Passed | Partial | Partial |
+| QSxx Misdirected Countermeasures | Passed | Passed | Passed | Passed | Passed | Partial | Partial |
+| QSxx Unverifiable Execution | Passed | Passed | Passed | Passed | Passed | Partial | Partial |
+| FSP Unified Profile | Passed | Partial | Passed | Passed | Passed | Partial | Not yet |
+
+## Gap Notes
+
+### QS01, QS03, QS04 umbrella Issues
+
+- Content: complete
+- Evidence: partial - Current OWASP Main gap analysis not yet performed
+- Submission: blocked on gap analysis (avoid duplicate submission)
+
+### QS09 deep dive
+
+- Content: complete
+- Evidence: strong (SLSA, RATS, DORA anchors verified)
+- Submission: pending SLSA wording neutralization (Batch 5) and
+  Current OWASP Main gap analysis
+
+### QSxx proposals
+
+- Content: complete
+- Evidence: strong
+- Submission: pending candidate adoption decision
+
+### FSP Unified Profile
+
+- Content: complete
+- Evidence: retention periods qualified as illustrative (Batch 3o)
+- Submission: sector-specific supplement, not core entry
+
+## Pre-Submission Actions
+
+For each candidate marked Not yet or Partial:
+
+1. Perform Current OWASP Main gap analysis against the candidate's
+   target entry
+2. Identify specific delta between candidate findings and current
+   OWASP main
+3. Confirm candidate is non-duplicative
+4. Update evidence status to Passed
+5. Then mark Ready
+
+## Current Blockers to Submission
+
+| Blocker | Affects | Action |
+|---|---|---|
+| Current OWASP Main gap analysis not performed | All candidates | Fetch current main and perform line-by-line comparison |
+| Independent verification not yet received | QS09 priority confirmation | Awaiting internal review |
+| Line-ending normalization in working tree | QS09 PR preparation | Normalize before final PR diff |
+
+## Status
+
+**Last updated:** 2026-10-04
+**Next action:** Current OWASP Main gap analysis for QS09 (highest-priority candidate)

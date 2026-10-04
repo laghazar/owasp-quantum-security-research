@@ -1,0 +1,150 @@
+# ============================================================
+# OWASP Quantum Security Research — .gitignore
+# ============================================================
+
+# ---- Windows ----
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ---- Linux ----
+*~
+.directory
+.Trash-*
+
+# ---- VS Code ----
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json.example
+
+# ---- JetBrains / IntelliJ ----
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ---- Visual Studio ----
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ---- Office temp files ----
+~$*.docx
+~$*.xlsx
+~$*.pptx
+~$*.doc
+~$*.xls
+~$*.ppt
+
+# ---- Editors ----
+*.swp
+*.swo
+*~
+*.bak2
+*.orig
+*.rej
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Node ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm
+.yarn-integrity
+
+# ---- Environment / secrets (safety net) ----
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+*.kdbx
+
+# ---- Sensitive / confidential ----
+# These should never be committed to a public repo
+*.secret
+*.private
+*_private.*
+confidential*
+internal-only*
+NDA_*
+# Add organisation-specific patterns below
+
+# ---- Temporary / scratch ----
+*.tmp
+*.temp
+*.cache
+*.log
+*.pid
+*.seed
+*.bak
+*.bak.*
+tmp/
+temp/
+scratch/
+.cache/
+
+# ---- OS-specific temp ----
+*.stackdump
+*.crash
+core
+core.*
+
+# ---- OWASP project specific ----
+# Keep generated automation output, but ignore local runs
+scripts/output/
+scripts/*.log
+scripts/.last-run
+
+# ---- Local backups (Repair Batch) ----
+# Backup files created during repair operations
+README.md.bak
+QS_Landscape.xlsx.bak
+.gitignore.bak
+# Local repair backups
+*.bak
