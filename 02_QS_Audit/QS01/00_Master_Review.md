@@ -1,7 +1,7 @@
 # QS01 — Master Review
 
 **Entry:** QS01 — Harvest-Now-Decrypt-Later Exposure
-**Reviewer:** <your-name>
+**Reviewer:** <Larisa Ghazaryan>
 **Review date:** 2026-10-04
 **OWASP project:** quantum-security-project/quantum-top-10
 **Entry version reviewed:** draft v0.1 (bootstrap)
