@@ -157,6 +157,22 @@ Notes:
 
 See `02_QS_Audit/QS10_Rapid_Audit.md` for the full rapid audit.
 
+---
+
+## QSxx Candidate Audit
+
+Four candidate entries from Pre-Sprint 0 reviewed for scope,
+distinctiveness, and overlap with active entries.
+
+| Candidate | Recommendation | Rationale |
+|---|---|---|
+| Compliance Obligations | DO NOT ADOPT (standalone) | Framing not quantum-specific; overlaps every entry's Standards and Regulatory Mapping; consider merge with landscape-wide regulatory framework |
+| Insecure Quantum Software Supply Chain | STRONG ADOPT | Self-delineated from QS09; strong research anchors; complements QS09 |
+| Misdirected Quantum Countermeasures | STRONG ADOPT | Novel conceptual position (believes it has migrated); strong NCSC/NSA anchors; financial-services relevance |
+| Unverifiable Quantum Execution and Result Assurance | STRONG ADOPT | Novel problem (execution assurance); strong peer-reviewed anchor; explicit scope delineation from QS08/QS09/QS10 |
+
+See `02_QS_Audit/QSxx_Candidates/` for the full candidate reviews.
+
 | QS | Findings | Issues drafted | PRs drafted | Status |
 |---|---|---|---|---|
 | QS01 | 29 | 4 | 1 | Draft - awaiting QS05-QS10 validation |
@@ -168,4 +184,5 @@ See `02_QS_Audit/QS10_Rapid_Audit.md` for the full rapid audit.
 | QS08 | 7 | 0 | 0 | Rapid audit complete |
 | QS09 | 7 | 0 | 0 | Rapid audit complete |
 | QS10 | 6 | 0 | 0 | Rapid audit complete |
-| **Total** | **159** | **12** | **3** | - |
+| QSxx Candidates | 4 reviewed | 0 | 0 | Candidate audit complete |
+| **Total** | **159** | **12** | **3** | All active entries + candidates reviewed |
